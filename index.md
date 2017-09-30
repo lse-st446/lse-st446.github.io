@@ -117,7 +117,7 @@ In this week we will introduce different data models, datasets, databases and da
 * Google, [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf), White Paper, 2012
 * Amazon Web Services [Documentation](https://aws.amazon.com/documentation/), [White Papers](https://aws.amazon.com/whitepapers/)
 * Google Cloud [Documentation](https://cloud.google.com/docs/)
-* Microsoft Azure [Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/), [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
+* Microsoft Azure [Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/), [SOSP 2011 paper & slides](https://blogs.msdn.microsoft.com/windowsazurestorage/2011/11/20/sosp-paper-windows-azure-storage-a-highly-available-cloud-storage-service-with-strong-consistency/), [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
 
 *Lab*: **Import data to RDD and DataFrame**
 * Create an RDD from a data collection and a file
