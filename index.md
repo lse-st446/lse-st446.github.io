@@ -109,6 +109,7 @@ In this week we will introduce different data models, datasets, databases and da
 * Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
 
 *Further Resources*:
+* Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
 * Fitzpatrick, B., [Distributed Cashing with Memcashed](http://www.linuxjournal.com/article/7451), Linux Journal, 2004
 * Nishtala, R. et al, [Scaling Memcashe at Facebook](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala), NSDI 2013
 * Amazon Web Services [Documentation](https://aws.amazon.com/documentation/)
