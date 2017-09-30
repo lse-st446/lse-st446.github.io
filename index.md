@@ -108,6 +108,7 @@ In this week we will introduce different data models, datasets, databases and da
 * Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
 
 *Further Resources*:
+* Fitzpatrick, B., [Distributed Cashing with Memcashed](http://www.linuxjournal.com/article/7451), Linux Journal, 2004
 * Nishtala, R. et al, [Scaling Memcashe at Facebook](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala), NSDI 2013
 * Amazon Web Services [Documentation](https://aws.amazon.com/documentation/)
 * Google Cloud [Documentation](https://cloud.google.com/docs/)
