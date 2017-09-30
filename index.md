@@ -99,10 +99,11 @@ In the first week, we will introduce the basic concepts and system architectures
 ---
 #### Week 2. Databases and data storage systems
 
-In this week we will introduce different data models, datasets, databases and data storage paradigms used for distributed computing for big data. We will discuss key-value databases such as Cassandra and more complex relational database models such as Hive. We will discuss different data formats for storing data including csv, tsv, JSON, XML, parquet, Protobuf, Hive tables, RDF, and Azure blobs. We will introduce the basic data structures used in Spark, including Resilient Distributed Dataset (RDD) and DataFrame. We will discuss the design objectives of various large-scale distributed storage systems such as consistency and fast reads or writes. 
+In this week we will introduce different data models, datasets, databases and data storage paradigms used for distributed computing for big data. We will discuss key-value databases such as Cassandra and more complex relational database models such as Hive. We will discuss different data formats for storing data including csv, tsv, JSON, XML, Parquet, Hive tables, RDF, and Azure blobs. We will introduce the basic data structures used in Spark, including Resilient Distributed Dataset (RDD) and DataFrame. We will discuss the design objectives of various large-scale distributed storage systems such as consistency and fast reads or writes. 
 
 
 *Readings*:
+* Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, 2012
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 2: Resilient Distributed Datasets, Chapter 3: DataFrames, Packt, 2017
 * Apache [Cassandra](http://cassandra.apache.org/) [Documentation](http://cassandra.apache.org/doc/latest/)
 * Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
