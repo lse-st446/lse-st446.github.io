@@ -112,6 +112,9 @@ In this week we will introduce different data models, datasets, databases and da
 * Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
 * Fitzpatrick, B., [Distributed Cashing with Memcashed](http://www.linuxjournal.com/article/7451), Linux Journal, 2004
 * Nishtala, R. et al, [Scaling Memcashe at Facebook](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala), NSDI 2013
+* Zhou, J. et al, [SCOPE: parallel databases meet MapReduce](http://www.cs.columbia.edu/~jrzhou/pub/Scope-VLDBJ.pdf), VLDB journal, 2012
+* Melnik S. et al, [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google.com/pubs/pub36632.html), VLDB 2010
+* Google, [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf), White Paper, 2012
 * Amazon Web Services [Documentation](https://aws.amazon.com/documentation/)
 * Google Cloud [Documentation](https://cloud.google.com/docs/)
 * Microsoft Azure [Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/), [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
