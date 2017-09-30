@@ -115,7 +115,7 @@ In this week we will introduce different data models, datasets, databases and da
 * Zhou, J. et al, [SCOPE: parallel databases meet MapReduce](http://www.cs.columbia.edu/~jrzhou/pub/Scope-VLDBJ.pdf), VLDB journal, 2012
 * Melnik S. et al, [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google.com/pubs/pub36632.html), VLDB 2010
 * Google, [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf), White Paper, 2012
-* Amazon Web Services [Documentation](https://aws.amazon.com/documentation/)
+* Amazon Web Services [Documentation](https://aws.amazon.com/documentation/), [White Papers](https://aws.amazon.com/whitepapers/)
 * Google Cloud [Documentation](https://cloud.google.com/docs/)
 * Microsoft Azure [Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/), [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
 
