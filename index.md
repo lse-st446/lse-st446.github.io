@@ -42,7 +42,7 @@ On the theory side, we will introduce principles of distributed databases, their
 
 On the practical side, we will cover a variety of tools that are part of a modern data scientist's toolkit, including distributed computing using Apache Spark, Mapreduce style processing of big data sets, application programming interfaces for querying structured and unstructured datasets, stream data processing, and deploying large-scale machine learning models. You will learn how to write programmes to define Spark jobs using the Python API and how to deploy a Spark job in a production environment. You will learn how to connect Spark data structures with a variety of external data sources, including key-value databases, relational databases, and publish-subscribe messaging systems.
 
-For the final project, we will ask you to implement and test a distributed computation on an input dataset in a Spark, which you will be expected to implement in a PySpark Jupyter notebook.
+For the final project, we will ask you to develop and run a distributed computation for a given dataset, which you will be expected to implement in a PySpark Jupyter notebook.
 
 
 
