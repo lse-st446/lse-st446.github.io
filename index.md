@@ -19,7 +19,7 @@ No lectures or classes will take place during School Reading Week 6.
 
 | **Week** | **Topic**                            |
 |----------|--------------------------------------|
-| 1        | [Introduction to basic concepts and system architectures](#week-1) |
+| 1        | [Introduction to basic concepts and system architectures](#week-1-Introduction-to-basic-concepts-and-system-architectures) |
 | 2        | [Databases and data storage systems](#week-2)                  |
 | 3        | [Querying unstructured datasets](#week-3)    |
 | 4        | [Querying structured datasets](#week-4)       |
