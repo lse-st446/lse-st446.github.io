@@ -19,17 +19,17 @@ No lectures or classes will take place during School Reading Week 6.
 
 | **Week** | **Topic**                            |
 |----------|--------------------------------------|
-| 1        | [Introduction to basic concepts and system architectures](#week-1-Introduction-to-basic-concepts-and-system-architectures) |
-| 2        | [Databases and data storage systems](#week-2)                  |
-| 3        | [Querying unstructured datasets](#week-3)    |
-| 4        | [Querying structured datasets](#week-4)       |
-| 5        | [Graph data processing](#week-5)                  |
+| 1        | [Introduction to basic concepts and system architectures](#week-1-introduction-to-basic-concepts-and-system-architectures) |
+| 2        | [Databases and data storage systems](#week-2-databases-and-data-storage-systems)                  |
+| 3        | [Querying unstructured datasets](#week-3-querying-unstructured-datasets)    |
+| 4        | [Querying structured datasets](#week-4-querying-structured-datasets)       |
+| 5        | [Graph data processing](#week-5-graph-data-processing)                  |
 | 6        | _Reading Week_                       |
-| 7        | [Stream data processing](#week-7)          |
-| 8        | [Scalable machine learning I](#week-8) |
-| 9        | [Scalable machine learning II](#week-9)                   |
-| 10       | [Numerical computations using data flow graphs](#week-10)           |
-| 11       | [Deployment of computation jobs in production](#week11)           |
+| 7        | [Stream data processing](#week-7-stream-data-processing)          |
+| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) |
+| 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii)                   |
+| 10       | [Numerical computations using data flow graphs](#week-10-numerical-computations-using-data-flow-graphs)           |
+| 11       | [Deployment of computation jobs in production](#week-11-deployment-of-computation-jobs-in-production)           |
 
 
 
