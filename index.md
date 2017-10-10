@@ -78,7 +78,6 @@ In the first week, we will introduce the basic concepts and system architectures
 
 
 *Readings*:
-* Matt Turcks's [Big Data Landscape](http://mattturck.com/wp-content/uploads/2016/03/Big-Data-Landscape-2016-v18-FINAL.png) 
 * Zaharia, M. et al, [Apache Spark: A Unified Engine for Big Data Processing](https://cacm.acm.org/magazines/2016/11/209116-apache-spark/fulltext), Communications of the ACM, Vol 59, No 11, November 2016
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 1: Understanding Spark, Packt, 2017
 
@@ -87,6 +86,7 @@ In the first week, we will introduce the basic concepts and system architectures
 * Manual [Installing Spark](https://www.packtpub.com/sites/default/files/downloads/InstallingSpark.pdf)
 * Mastering Apache Spark 2, [Task Scheduler](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/) 
 * DAG scheduler http://bit.ly/29WTiKB
+* Matt Turcks's [Big Data Landscape](http://mattturck.com/wp-content/uploads/2016/03/Big-Data-Landscape-2016-v18-FINAL.png) 
 
 
 *Lab*: **Hands-on system administration tools** 
@@ -140,7 +140,7 @@ In this week we will study how to query large unstructured datasets. We will int
 * Spark Programming Guide http://spark.apache.org/docs/latests/programming-guide.html#rdd-operations
  
 
-*Further Readings*:
+*Further Resources*:
 * Zaharia, M. et al, [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/node/162809), NSDI 2012
 * High Performance Spark, Chapter 5, Effective transformations, section Narrow vs. Wide Transformations, https://smile.amazon.com/High-Performance-Spark-Practices-Optimizing/dp/1491943203
 * Regex patterns https://www.packtpub.com/application-development/master-python-regular-expressions
