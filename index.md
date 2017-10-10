@@ -254,7 +254,8 @@ In this week we will continue by considering distributed machine learning algori
 
 *Further Resources*:
 * Moore, A., [K-means and Hierarchical Clustering Tutorial](https://www.autonlab.org/tutorials/kmeans.html)
-* Wang, Q., [Spark machine learning pipeline by example](https://community.hortonworks.com/articles/53903/spark-machine-learning-pipeline-by-example.html), August 31, 2016  
+* Wang, Q., [Spark machine learning pipeline by example](https://community.hortonworks.com/articles/53903/spark-machine-learning-pipeline-by-example.html), August 31, 2016
+* Zadeh, R., Meng, X., Ulanov, A., Yavuz, B., Pu, L., Venkataraman, S., Sparks, E., Staple, A., Zaharia, M., [Matrix Computations and Optimizations in Spark](http://www.kdd.org/kdd2016/subtopic/view/matrix-computations-and-optimization-in-apache-spark), KDD 2016
 
 *Lab*: **Clustering and movies recommendation**
 * k-means clustering using a Mapreduce algorithm
