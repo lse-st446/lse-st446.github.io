@@ -78,11 +78,12 @@ In the first week, we will introduce the basic concepts and system architectures
 
 
 *Readings*:
+* Matt Turcks's [Big Data Landscape](http://mattturck.com/wp-content/uploads/2016/03/Big-Data-Landscape-2016-v18-FINAL.png) 
 * Zaharia, M. et al, [Apache Spark: A Unified Engine for Big Data Processing](https://cacm.acm.org/magazines/2016/11/209116-apache-spark/fulltext), Communications of the ACM, Vol 59, No 11, November 2016
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 1: Understanding Spark, Packt, 2017
 
 
-*Further Readings*:
+*Further Resources*:
 * Manual [Installing Spark](https://www.packtpub.com/sites/default/files/downloads/InstallingSpark.pdf)
 * Mastering Apache Spark 2, [Task Scheduler](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/) 
 * DAG scheduler http://bit.ly/29WTiKB
