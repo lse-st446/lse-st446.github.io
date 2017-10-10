@@ -232,6 +232,7 @@ In this week we will introduce the basic concepts of distributed machine learnin
 *Further Resources*:
 * Li, M., [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf), OSDI 2014
 * [Numerical optimization: understanding L-BFGS](http://aria42.com/blog/2014/12/understanding-lbfgs), blog, December 2, 2014
+* Machine Learning [Glossary](https://developers.google.com/machine-learning/glossary)
 
 *Lab*: **Churn prediction using MLib package**
 * Import the Orange Telecoms Churn dataset
@@ -247,7 +248,7 @@ In this week we will continue by considering distributed machine learning algori
 
 
 *Readings*:
-* Murphy, K. P., _Machine Learning: A Probabilistic Perspective, k-means, Section 11.4.2.5, The MIT Press, 2012  
+* Murphy, K. P., _Machine Learning: A Probabilistic Perspective_, k-means, Section 11.4.2.5, The MIT Press, 2012  
 * Drabas, T. and Lee, D.  _Learning PySpark_, Chapter 5: Intoducing MLib and Chapter 6: Introducting the ML Package, Packt, 2017
 * Spark programming guide [MLib: RDD-based API](https://spark.apache.org/docs/latest/mllib-guide.html) 
 
