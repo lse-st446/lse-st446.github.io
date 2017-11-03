@@ -173,7 +173,7 @@ In this week we will consider how to query datasets that have a schema. We will 
 
 
 ---
-#### Week 7. Graph data processing
+#### Week 5. Graph data processing
 
 In this week we will consider principles and systems for scalable processing of large-scale graph data. This include queries such as evaluating node centralities (e.g. degree centrality), graph traversal or motif queries for finding structural in graph data (e.g. identifying friends-of-friends of a person who were born in London), and iterative algorithms on graph input data (e.g. computing PageRank node centralities). We will discuss different data models for representation of graph data such as [RDF](http://www.w3.org/TR/rdf-sparql-query/), as well as query languages, including [SPARQL](http://www.w3.org/TR/rdf-sparql-query/), [Gremlin](http://tinkerpop.apache.org/), [Cypher](https://neo4j.com/developer/cypher/) and [openCyper](http://www.opencypher.org/) that used in graph databases. We will introduce the bulk synchronous parallel computation model that underlies the design of modern computation platforms for iterative computing on input graph data. 
 
