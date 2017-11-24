@@ -28,7 +28,7 @@ No lectures or classes will take place during School Reading Week 6.
 | 7        | [Stream data processing](#week-7-stream-data-processing) Guest lecturer: Eno Thereska, Principal Engineer, Amazon |
 | 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) |
 | 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) Guest lecturer: Ryota Tomioka, Researcher, Microsoft Research |
-| 10       | [Numerical computations using data flow graphs](#week-10-numerical-computations-using-data-flow-graphs) Guest lecturer: Marc Cohen, *Software Engineer*, Google |
+| 10       | [Numerical computations using data flow graphs](#week-10-numerical-computations-using-data-flow-graphs) Guest lecturer: Marc Cohen, Software Engineer, Google |
 | 11       | [Deployment of computation jobs in production](#week-11-deployment-of-computation-jobs-in-production)           |
 
 
