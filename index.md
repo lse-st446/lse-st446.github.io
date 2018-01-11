@@ -268,7 +268,9 @@ In this week we will continue by considering distributed machine learning algori
 ---
 #### Week 10. AI applications
 
-Lecture: guest lecturer Marc Cohen, Software Engineer, Google "Democratizing AI," providing an overview of cloud services provided by Google for various computation tasks such as machine learning, TensorFlow, Vision API, Translation API, Video intelligence API, Cloud ML engine, and managed TensorFlow at scale.
+Guest lecture: "Democratizing AI," Marc Cohen, Software Engineer, Google. 
+
+The lecture will provide an overview of cloud services provided by Google including TensorFlow, vision API, translation API, video intelligence API, cloud ML engine, and managed TensorFlow at scale.
 
 *Lab*: **Using APIs for solving AI tasks**
 * TBD
