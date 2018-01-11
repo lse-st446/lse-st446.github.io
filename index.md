@@ -170,6 +170,8 @@ and Murthy R., [Hive-A Petabyte Scale Data Warhouse Using Hadoop](http://infolab
 * Running queries in Spark SQL using dataframe API and Spark Session sql API
 * Data management using BigQuery via web interface and connector with Python
 
+Note: assignment for grading to be given in this week
+
 ---
 #### Week 5. Graph data processing
 
