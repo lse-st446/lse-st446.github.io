@@ -181,12 +181,11 @@ In this week we will consider principles and systems for scalable processing of 
 *Readings*:
 * Drabas, T. and Karau, H., _Learning PySpark_, Chapter 7: GraphFrames, Packt, 2017
 * Spark [GraphX: programming guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
-(http://giraph.apache.org/)
 * Gonzalez, J. E. et al, [GraphX: Graph Processing in Distributed Dataflow Framework](https://www.usenix.org/node/186217), OSDI 2014
 
 *Further Resources*:
 
-* Malewicz, G. et al, [Pregel: A System for Large-Scale Graph Processing](https://kowshik.github.io/JPregel/pregel_paper.pdf), ACM SIGMOD 2010; open source cousin: [Apache Giraph]
+* Malewicz, G. et al, [Pregel: A System for Large-Scale Graph Processing](https://kowshik.github.io/JPregel/pregel_paper.pdf), ACM SIGMOD 2010; open source cousin: [Apache Giraph](http://giraph.apache.org/)
 * Low, Y. et al, [Distributed GraphLab: A Framework for Machine Learning and Data Mining in the Cloud](http://vldb.org/pvldb/vol5/p716_yuchenglow_vldb2012.pdf), VLDB 2012
 * Valiant, L. G., [A Bridging Model for Parallel Computation](http://web.mit.edu/6.976/www/handout/valiant2.pdf), Communications of the ACM, Vol 3, No 8, August 1990.
 
