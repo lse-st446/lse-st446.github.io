@@ -117,7 +117,7 @@ In this week, we will first consider the main design principles of distributed f
 * Chang et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
 * Lakshman, A. and Malik, K., [A Decentralized Structured Storage System](http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf), LADIS 2009
 * Calder, B. et al, [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf), SOSP 2011
-* Huang, C., Simitci, H., Xu, Y., Ogus, A., Caider, B., Gopalan, P., Li, J. and Yekhanin, S., [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012 (Best Paper Award)
+* Huang, C., Simitci, H., Xu, Y., Ogus, A., Caider, B., Gopalan, P., Li, J. and Yekhanin, S., [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012
 
 
 xxx
