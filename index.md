@@ -81,20 +81,6 @@ In the first week, we will provide an overview of basic concepts starting with a
 * Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, 2012
 
 
-xxx
-
-
-* Zaharia, M. et al, [Apache Spark: A Unified Engine for Big Data Processing](https://cacm.acm.org/magazines/2016/11/209116-apache-spark/fulltext), Communications of the ACM, Vol 59, No 11, November 2016
-* Drabas, T. and Lee, D., _Learning PySpark_, Chapter 1: Understanding Spark, Packt, 2017
-
-
-*Further Resources*:
-* Manual [Installing Spark](https://www.packtpub.com/sites/default/files/downloads/InstallingSpark.pdf)
-* Mastering Apache Spark 2, [Task Scheduler](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/) 
-* DAG scheduler http://bit.ly/29WTiKB
-* Matt Turcks's [Big Data Landscape](http://mattturck.com/wp-content/uploads/2016/03/Big-Data-Landscape-2016-v18-FINAL.png) 
-
-
 *Lab*: **Getting started** 
 * Command line interface and commands
 * Cluster and bucket creation in a cloud
@@ -125,24 +111,6 @@ In this week, we will first consider the main design principles of distributed f
 * Calder, B. et al, [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf), SOSP 2011
 * Huang, C., Simitci, H., Xu, Y., Ogus, A., Caider, B., Gopalan, P., Li, J. and Yekhanin, S., [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012
 
-
-xxx
-
-
-* Drabas, T. and Lee, D., _Learning PySpark_, Chapter 2: Resilient Distributed Datasets, Chapter 3: DataFrames, Packt, 2017
-* Apache [Cassandra](http://cassandra.apache.org/) [Documentation](http://cassandra.apache.org/doc/latest/)
-* Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
-
-*Further Resources*:
-* Fitzpatrick, B., [Distributed Cashing with Memcashed](http://www.linuxjournal.com/article/7451), Linux Journal, 2004
-* Nishtala, R. et al, [Scaling Memcashe at Facebook](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala), NSDI 2013
-* Zhou, J. et al, [SCOPE: parallel databases meet MapReduce](http://www.cs.columbia.edu/~jrzhou/pub/Scope-VLDBJ.pdf), VLDB journal, 2012
-* Melnik S. et al, [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google.com/pubs/pub36632.html), VLDB 2010
-* Google, [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf), White Paper, 2012
-* Amazon Web Services [Documentation](https://aws.amazon.com/documentation/), [White Papers](https://aws.amazon.com/whitepapers/)
-* Google Cloud [Documentation](https://cloud.google.com/docs/)
-* Microsoft Azure [Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/), [SOSP 2011 paper & slides](https://blogs.msdn.microsoft.com/windowsazurestorage/2011/11/20/sosp-paper-windows-azure-storage-a-highly-available-cloud-storage-service-with-strong-consistency/), [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
-
 *Lab*: **System installation and API practice**
 * Go through Hadoop installation
 * Basic file manipulation commands working with HDFS
@@ -167,22 +135,6 @@ In this lecture we will explain the basic principles of distributed computation 
 * Spark programming [guide](https://spark.apache.org/docs/latest/rdd-programming-guide.html)   
 * Chambers B. and Zaharia M., Spark: The Definitive Guide, databricks, 2017
 * Spark documentation: [PySpark package](http://spark.apache.org/docs/2.1.0/api/python/pyspark.html)
-
-
-xxx
-
-* Dean, J. and Ghemawat, S., [Mapreduce: Simiplified Data Processing on Large Clusters](https://courses.cs.washington.edu/courses/cse547/17sp/content/Downloads/p107-dean.pdf), Communications of the ACM, Vol 51, No 1, January 2008, [OSDI 2004 version](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-* Drabas, T. and Lee, D., _Learning PySpark_, Chapter 2: Resilient Distributed Datasets, Packt, 2017
-* Karau, H. et al, _Learning Spark:Lightning-Fast Data Analysis_, O'Reilly 2015 
-* Karau, H and Warren R., _High Performance Spark: Best Practices for Scaling & Optimizing Apache Spark_, O'Reilly 2017
-* Laskowski, J., [_Mastering Apache Spark 2_](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/)
-* Spark Programming Guide http://spark.apache.org/docs/latests/programming-guide.html#rdd-operations
- 
-
-*Further Resources*:
-* Zaharia, M. et al, [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/node/162809), NSDI 2012
-* High Performance Spark, Chapter 5, Effective transformations, section Narrow vs. Wide Transformations, https://smile.amazon.com/High-Performance-Spark-Practices-Optimizing/dp/1491943203
-* Regex patterns https://www.packtpub.com/application-development/master-python-regular-expressions
 
 *Lab*: **Mapreduce and resilient distributed datasets**
 * Run a mapreduce job on Hadoop for word count on dblp data
@@ -212,22 +164,11 @@ and Murthy R., [Hive-A Petabyte Scale Data Warhouse Using Hadoop](http://infolab
 * Armbrust, M., [Dataframes: Simple and Fast Analysis of Structured Data](http://go.databricks.com/databricks-webinar-spark-dataframes-simple-and-fast-analysis-of-structured-data-0), Webinar, 2017
 * Big Query SQL Reference: [Standard](https://cloud.google.com/bigquery/docs/reference/standard-sql/) and [Legacy](https://cloud.google.com/bigquery/docs/reference/legacy-sql)
 
-xxx
-
-* Drabas, T. and Lee, D., _Learning PySpark_, Chapter 3: DataFrames, Packt, 2017
-* Spark [SQL, DataFrames, and Datasets Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
-
-*Further Resources*:
-* Armbrust et al, [Spark SQL: Relational Data Processing in Spark](https://people.csail.mit.edu/matei/papers/2015/sigmod_spark_sql.pdf), ACM SIGMOD 2015
-* Zhou, J. et al, [SCOPE: parallel databases meet MapReduce](http://www.cs.columbia.edu/~jrzhou/pub/Scope-VLDBJ.pdf), VLDB journal, 2012
-* Melnik S. et al, [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google.com/pubs/pub36632.html), VLDB 2010
-* Cormode, G., [Data Sketching](https://cacm.acm.org/magazines/2017/9/220427-data-sketching/fulltext), Communications of the ACM, Vol 60, No 9, September 2017
-
-*Lab*: **SQL queries on table data**
-* Creating a datframe, querying with the dataframe API, querying with SQL
-* Computing approximate query answers
-* GitHub and StackExchange data analysis using Google Big Query
-
+*Lab*: **Hive and Spark SQL queries**
+* Run Hive queries, basic standard SQL and Hive specific queries such as TRANSFORM, and MAP and REDUCE, queries
+* Loading data from sources, including JSON, XML, weblogs using regular expressions 
+* Running queries in Spark SQL using dataframe API and Spark Session sql API
+* Data management using BigQuery via web interface and connector with Python
 
 ---
 #### Week 5. Graph data processing
