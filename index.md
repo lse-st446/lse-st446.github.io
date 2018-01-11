@@ -99,17 +99,35 @@ In the first week, we will provide an overview of basic concepts starting with a
 ---
 #### Week 2. Distributed file systems and key-value stores
 
-In this week we will introduce different data models, datasets, databases and data storage paradigms used for distributed computing for big data. We will discuss key-value databases such as Cassandra and more complex relational database models such as Hive. We will discuss different data formats for storing data including csv, tsv, JSON, XML, Parquet, Hive tables, RDF, and Azure blobs. We will introduce the basic data structures used in Spark, including Resilient Distributed Dataset (RDD) and DataFrame. We will discuss the design objectives of various large-scale distributed storage systems such as consistency and fast reads or writes. 
-
+In this week, we will first consider the main design principles of distributed file systems, explaining the original Google File System and its refinements, as well as other distributed file systems such as Hadoop Distributed File System (HDFS). We will then consider the main design principles of distributed key-value stores such as Amazon Dynamo and columnar data storage systems such as BigTable and Apache Cassandra. 
 
 *Readings*:
+* White, T., [Hadoop: The Definitive Guide](https://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1491901632/ref=sr_1_1?ie=UTF8&qid=1514806006&sr=8-1&keywords=hadoop+the+definitive+guide), O'Reilly, 4th Edition, 2015
+* Carpenter, J. and Hewitt, E., [Cassandra: The Definitive Guide](https://www.amazon.co.uk/Cassandra-Definitive-Guide-Jeff-Carpenter/dp/1491933666/ref=sr_1_1?ie=UTF8&qid=1514834275&sr=8-1&keywords=cassandra+definitive+guide), 2nd Edition, O'Reilly, 2016 
+* Ghemawat, S., Gobioff, H. and Leung S.-T., [The Google file system](https://research.google.com/archive/gfs.html), SOSP 2003
+* [GFS: Evolution on Fast-Forward](http://queue.acm.org/detail.cfm?id=1594206), ACM Queue, Vol 7, No 7, August, 2009
+* Apache Hadoop docs: [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) 
+* Calder, B. et al, [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf), SOSP 2011
+* Huang, C., Simitci, H., Xu, Y., Ogus, A., Caider, B., Gopalan, P., Li, J. and Yekhanin, S., [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012 (Best Paper Award)
+* [Introduction to Microsoft Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)
+* DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A., Sivasubramanian, S., Voshall, P. and Vogels, W., [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP 2007
+* Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
+* Nishtala et al, Scaling Memcache at Facebook, NSDI 2013
+* Fitzpatrick, [Distributed Caching with Memcached](http://www.linuxjournal.com/article/7451), 2004
+* Melnik et al, [Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf), VLDB 2010
+* Chang et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
+* Sato, An Inside Look at Google BigQuery, White Paper, 2012
+* Lakshman, A. and Malik, K., [A Decentralized Structured Storage System](http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf), LADIS 2009
+
+xxx
+
+
 * Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, 2012
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 2: Resilient Distributed Datasets, Chapter 3: DataFrames, Packt, 2017
 * Apache [Cassandra](http://cassandra.apache.org/) [Documentation](http://cassandra.apache.org/doc/latest/)
 * Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
 
 *Further Resources*:
-* Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
 * Fitzpatrick, B., [Distributed Cashing with Memcashed](http://www.linuxjournal.com/article/7451), Linux Journal, 2004
 * Nishtala, R. et al, [Scaling Memcashe at Facebook](https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala), NSDI 2013
 * Zhou, J. et al, [SCOPE: parallel databases meet MapReduce](http://www.cs.columbia.edu/~jrzhou/pub/Scope-VLDBJ.pdf), VLDB journal, 2012
