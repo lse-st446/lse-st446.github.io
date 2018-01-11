@@ -184,7 +184,7 @@ xxx
 * High Performance Spark, Chapter 5, Effective transformations, section Narrow vs. Wide Transformations, https://smile.amazon.com/High-Performance-Spark-Practices-Optimizing/dp/1491943203
 * Regex patterns https://www.packtpub.com/application-development/master-python-regular-expressions
 
-*Lab*: **Using RDDs and MapReduce tasks**
+*Lab*: **Mapreduce and resilient distributed datasets**
 * Run a mapreduce job on Hadoop for word count on dblp data
 * Hands-on experience with running operations on resilient distributed datasets in PySpark, such as map, flatMap, filter, distinct, sample, leftOuter and repartition, and actions such as take, collect, reduce, count, saveAsTextFile and foreach
 * Run the word count example using resilient distributed datasets in PySpark
@@ -192,10 +192,28 @@ xxx
 ---
 #### Week 4. Structured data management systems
 
-In this week we will consider how to query datasets that have a schema. We will introduce the concept of a dataframe and learn  how to query data by using dataframe query API and how to execute SQL queries. We will discuss computational complexity of different standard queries and query optimization techniques.  We will consider how to compute fast approximate query answers by using sampling techniques such as reservoir sampling, and data summarizations or sketches such as hyperloglog sketch for approximating the number of distinct elements in a multiset and count-min for frequency estimation.
-
+In this week we will consider systems for big data analytics using structured query languages. We will start with considering the main architectural principles of Apache Hive, a data warehouse solution running on top of Apache Hadoop. We will consider data types and query language used by Hive. We will then consider the main design principles that underlie Dremel (BigQuery) and Spark SQL for querying data using structured query languages. 
 
 *Readings*:
+* White, T., [Hadoop: The Definitive Guide](https://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1491901632/ref=sr_1_1?ie=UTF8&qid=1514806006&sr=8-1&keywords=hadoop+the+definitive+guide), O'Reilly, 4th Edition, 2015
+* Karau, H., Konwinski, A., Wendell, P. and Zaharia, M., [Learning Spark: Lightining-fast Data Analysis](https://www.amazon.co.uk/Learning-Spark-Lightning-Fast-Data-Analysis/dp/1449358624), Chapter 9 Spark SQL, O'Reilly, 2015
+* Karau, H. and Warren, R., [High Performance Spark: Best Practices for Scaling & Optimizing Apache Spark](https://www.amazon.co.uk/High-Performance-Spark-Practices-Optimizing/dp/1491943203/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=6QE38GNZN2YBJ5SS99FP), O'Reilly, 2017
+* Drabas, T. and Lee D., [Learning PySpark](https://www.amazon.co.uk/Learning-PySpark-Tomasz-Drabas/dp/1786463709), Chapter 3 DataFrames, Packt, 2016
+* Rutherglen, J., Wampler, D., Capriolo, E., [Programming Hive](https://www.safaribooksonline.com/library/view/programming-hive/9781449326944/), 2nd Edition, O'Reilly, 2017
+* Prokopp, C., [The Free Hive Book](https://github.com/Prokopp/the-free-hive-book)
+
+*Further Readings*:
+* Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
+* Apache Hive [Language Manual](https://cwiki.apache.org/confluence/display/Hive/LanguageManual)
+* Thusoo, A., Sarma, J.-S., Jain, N., Shao, Z., Chakka, P., Zhang, N., Antony S., Liu, H.
+and Murthy R., [Hive-A Petabyte Scale Data Warhouse Using Hadoop](http://infolab.stanford.edu/~ragho/hive-icde2010.pdf), ICDE 2010
+* Spark SQL programming guide: [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html), Apache Spark 2.2.0, 2017
+* Armbrust, M., et al, [Spark SQL: Relational Data Processing in Spark](https://amplab.cs.berkeley.edu/wp-content/uploads/2015/03/SparkSQLSigmod2015.pdf), ACM SIGMOD 2015
+* Armbrust, M., [Dataframes: Simple and Fast Analysis of Structured Data](http://go.databricks.com/databricks-webinar-spark-dataframes-simple-and-fast-analysis-of-structured-data-0), Webinar, 2017
+* Big Query SQL Reference: [Standard](https://cloud.google.com/bigquery/docs/reference/standard-sql/) and [Legacy](https://cloud.google.com/bigquery/docs/reference/legacy-sql)
+
+xxx
+
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 3: DataFrames, Packt, 2017
 * Spark [SQL, DataFrames, and Datasets Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
 
