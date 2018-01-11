@@ -72,9 +72,9 @@ Project assignment (80%) and continuous assessment in weeks 4 and 7 (10% each). 
 ### Schedule
 
 ---
-#### Week 1. Introduction to basic concepts and system architectures
+#### Week 1. Introduction
 
-In the first week, we will introduce the basic concepts and system architectures for big data processing. We will introduce the basic computing paradigms of batch, streaming, imperative, declarative, graph and machine learning data processing. We will discuss the main architectures of data storage systems based on key-value stores and other data models. We will discss the main design goals of such systems such as consistency, optimization for fast and reliable read or writes. We will then introduce the basic concepts of multi-node computing, such as cluster computing systems consisting of multiple machines, multi-core processors, distributed file systems, partitions of large data files into chunks or extents, distributed computing using master and worker nodes, resource allocation through job scheduling using resource managament systems such as YARN and Mesos.
+In the first week, we will provide an overview of basic concepts starting with a definition of big data, followed by an overview of structured, semi-structured and unstructured data types, including relational database tables, delimiter-separated file formats such as csv and tsv files, JSON and XML file formats. We will then consider main properties of traditional relational database management systems, their support of transactions and ACID properties. This will lead us to consider the need for the design of scalable systems, the concepts of horizontal and vertical scaling, and various computer system bottlenecks. We will then go on to consider modern big data analytics systems and how they have evolved over time. We will introduce various computation paradigms such as batch processing, interactive processing, stream processing, and lambda architectures. We will discuss main developments such as mapreduce computation model and noSQL databases. The rest of the lecture is focused on discussion of various computational tasks that led to the development of modern big data analytics systems, which will be studied throughout the course. 
 
 
 *Readings*:
@@ -89,14 +89,15 @@ In the first week, we will introduce the basic concepts and system architectures
 * Matt Turcks's [Big Data Landscape](http://mattturck.com/wp-content/uploads/2016/03/Big-Data-Landscape-2016-v18-FINAL.png) 
 
 
-*Lab*: **Hands-on system administration tools** 
-* Use of basic linux/Mac OS/Windows command line utilities
-* Getting to know your cluster system, processors and machines
-* Use of cloud computing services: AWS example
-* Use of docker images
+*Lab*: **Getting started** 
+* Command line interface and commands
+* Cluster and bucket creation in a cloud
+* Submitting a "Hello World" job on a cluster
+* Running a Jupyter notebook on a cluster
+* Use of Docker containers
 
 ---
-#### Week 2. Databases and data storage systems
+#### Week 2. Distributed file systems and key-value stores
 
 In this week we will introduce different data models, datasets, databases and data storage paradigms used for distributed computing for big data. We will discuss key-value databases such as Cassandra and more complex relational database models such as Hive. We will discuss different data formats for storing data including csv, tsv, JSON, XML, Parquet, Hive tables, RDF, and Azure blobs. We will introduce the basic data structures used in Spark, including Resilient Distributed Dataset (RDD) and DataFrame. We will discuss the design objectives of various large-scale distributed storage systems such as consistency and fast reads or writes. 
 
@@ -126,7 +127,7 @@ In this week we will introduce different data models, datasets, databases and da
 * Import data from a postgreSQL database
 
 ---
-#### Week 3. Querying unstructured datasets
+#### Week 3. Distributed computation models
 
 In this week we will study how to query large unstructured datasets. We will introduce the parallel computing paradigm of MapReduce. We will discuss how to manage and query datasets using Spark RDD. We will learn how to create an RDD, use transformations such as map, flatMap, filter, distinct, sample, leftOuterJoin, repartition as well as actions such as take, collect, reduce, count saveAsTextFile, and foreach. We will introduce the concept of lambda expressions and how to use regular expressions.
 
@@ -151,7 +152,7 @@ In this week we will study how to query large unstructured datasets. We will int
 * Use of actions such as take, collect, reduce, count, saveAsTextFile and foreach
 
 ---
-#### Week 4. Querying structured datasets
+#### Week 4. Structured data management systems
 
 In this week we will consider how to query datasets that have a schema. We will introduce the concept of a dataframe and learn  how to query data by using dataframe query API and how to execute SQL queries. We will discuss computational complexity of different standard queries and query optimization techniques.  We will consider how to compute fast approximate query answers by using sampling techniques such as reservoir sampling, and data summarizations or sketches such as hyperloglog sketch for approximating the number of distinct elements in a multiset and count-min for frequency estimation.
 
