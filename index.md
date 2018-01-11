@@ -19,10 +19,10 @@ No lectures or classes will take place during School Reading Week 6.
 
 | **Week** | **Topic**                            |
 |----------|--------------------------------------|
-| 1        | [Introduction to basic concepts and system architectures](#week-1-introduction-to-basic-concepts-and-system-architectures) |
-| 2        | [Databases and data storage systems](#week-2-databases-and-data-storage-systems)                  |
-| 3        | [Querying unstructured datasets](#week-3-querying-unstructured-datasets)    |
-| 4        | [Querying structured datasets](#week-4-querying-structured-datasets)       |
+| 1        | [Introduction](#week-1-introduction-to-basic-concepts-and-system-architectures) |
+| 2        | [Distributed file systems and key-value stores](#week-2-databases-and-data-storage-systems)                  |
+| 3        | [Distributed computation models](#week-3-querying-unstructured-datasets)    |
+| 4        | [Structured data management systems](#week-4-querying-structured-datasets)       |
 | 5        | [Graph data processing](#week-5-graph-data-processing)                  |
 | 6        | _Reading Week_                       |
 | 7        | [Stream data processing](#week-7-stream-data-processing) <br> Guest lecturer: Eno Thereska, Principal Engineer, Amazon |
@@ -233,12 +233,15 @@ In this week we will introduce the basic concepts of distributed machine learnin
 * [Numerical optimization: understanding L-BFGS](http://aria42.com/blog/2014/12/understanding-lbfgs), blog, December 2, 2014
 * Machine Learning [Glossary](https://developers.google.com/machine-learning/glossary)
 
-*Lab*: **Churn prediction using MLib package**
-* Import the Orange Telecoms Churn dataset
-* Train a logistic regression model, compute predictions
-* Train a decision tree model, compute predictions
-* Evaluate and compare the two models
+*Lab*: **Spark ML package and churn prediction task**
+* Basic features of Spark MLib package 
+* Churn prediction:
+   * Import the Orange Telecoms Churn dataset
+   * Train a logistic regression model, compute predictions
+   * Train a decision tree model, compute predictions
+   * Evaluate and compare the two models
 
+Note: assignment for grading to be given in this week
 
 ---
 #### Week 9. Scalable machine learning II
@@ -261,7 +264,7 @@ In this week we will continue by considering distributed machine learning algori
 * Movie recommendations using MovieLens data and training a collaborative filtering model using Alternating Least Square (ALS) algorithm
 
 ---
-#### Week 10. Numerical computations using data flow graphs
+#### Week 10. AI applications
 
 We will introduce the basic concepts of performing numerical computations using data flow graphs. In such settings, the graph nodes represent mathematical operations, while the graph edges represent the multidimensional data arrays that flow between them. We will explain the architecture of Tensorflow, an open source library for numerical computations using data flow graphs. We will go over the the use case of learning a deep neural network, taking the basic architecture of a feedforward deep neural network. 
 
@@ -285,7 +288,7 @@ We will introduce the basic concepts of performing numerical computations using 
 * Evaluate the classification accuarcy of the trained model
 
 ---
-#### Week 11. Deployment of computation jobs in production
+#### Week 11. Numerical computations using dataflow graphs
 
 In the last week, we will discuss how to deploy large-scale computations in a production cluster system. This will cover setting up a cluster system, running jobs over varied number of machines in the cluster, and tracking their progress. We will consider simple Mapreduce jobs as well as machine learning algorithms for prediction tasks on a large-scale data. 
 
