@@ -138,20 +138,34 @@ xxx
 * Google Cloud [Documentation](https://cloud.google.com/docs/)
 * Microsoft Azure [Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/), [SOSP 2011 paper & slides](https://blogs.msdn.microsoft.com/windowsazurestorage/2011/11/20/sosp-paper-windows-azure-storage-a-highly-available-cloud-storage-service-with-strong-consistency/), [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
 
-*Lab*: **Import data to RDD and DataFrame**
-* Create an RDD from a data collection and a file
-* Transform an RDD to a dataframe and vice-versa
-* Import data from JSON and XML files
-* Import data from a key-value database
-* Import data from a postgreSQL database
+*Lab*: **System installation and API practice**
+* Go through Hadoop installation
+* Basic file manipulation commands working with HDFS
+* Reading and writing data from BigTable
 
 ---
 #### Week 3. Distributed computation models
 
-In this week we will study how to query large unstructured datasets. We will introduce the parallel computing paradigm of MapReduce. We will discuss how to manage and query datasets using Spark RDD. We will learn how to create an RDD, use transformations such as map, flatMap, filter, distinct, sample, leftOuterJoin, repartition as well as actions such as take, collect, reduce, count saveAsTextFile, and foreach. We will introduce the concept of lambda expressions and how to use regular expressions.
-
+In this lecture we will explain the basic principles of distributed computation models that are in common use in the context of big data analytics systems. We will start with explaining mapreduce computation model that is in widespread use for distribuged processing of large datasets. We will then move on to consider Pregel computation model, developed for iterative computations such as computing PageRank of a large-scale input graph. Finally, we will consider the concept of a resilient distributed dataset, distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner. This will involve to consider the types of operations performed on resilient distributed datasets and their execution on a distributed cluster of machines. 
 
 *Readings*:
+* Karau, H., Konwinski, A., Wendell, P. and Zaharia, M., Learning Spark: Lightining-fast Data Analysis, O'Reilly, 2015
+* Karau, H. and Warren, R., High Performance Spark: Best Practices for Scaling & Optimizing Apache Spark, O'Reilly, 2017
+* Drabas, T. and Lee D., Learning PySpark, Packt, 2016
+* Dean, J. and Ghemawat, S., [Mapreduce: Simiplified Data Processing on Large Clusters](https://courses.cs.washington.edu/courses/cse547/17sp/content/Downloads/p107-dean.pdf), Communications of the ACM, Vol 51, No 1, January 2008; original [OSDI 2004 paper](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+* Zaharia M. et al, [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf), NSDI 2012
+
+*Further Readings*:
+* Apache Hadoop [documentation](http://hadoop.apache.org/docs/r3.0.0/)
+* Apache Hadoop documentation: [MapReduce Tutorial](http://hadoop.apache.org/docs/r3.0.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
+* Malewicz G. et al, [Pregel: A System for Large-Scale Graph Processing](https://www.cs.cmu.edu/~pavlo/courses/fall2013/static/papers/p135-malewicz.pdf), SIGMOD 2010
+* Spark programming [guide](https://spark.apache.org/docs/latest/rdd-programming-guide.html)   
+* Chambers B. and Zaharia M., Spark: The Definitive Guide, databricks, 2017
+* Spark documentation: [PySpark package](http://spark.apache.org/docs/2.1.0/api/python/pyspark.html)
+
+
+xxx
+
 * Dean, J. and Ghemawat, S., [Mapreduce: Simiplified Data Processing on Large Clusters](https://courses.cs.washington.edu/courses/cse547/17sp/content/Downloads/p107-dean.pdf), Communications of the ACM, Vol 51, No 1, January 2008, [OSDI 2004 version](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 2: Resilient Distributed Datasets, Packt, 2017
 * Karau, H. et al, _Learning Spark:Lightning-Fast Data Analysis_, O'Reilly 2015 
