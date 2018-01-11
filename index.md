@@ -105,11 +105,11 @@ In this week, we will first consider the main design principles of distributed f
 * White, T., [Hadoop: The Definitive Guide](https://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1491901632/ref=sr_1_1?ie=UTF8&qid=1514806006&sr=8-1&keywords=hadoop+the+definitive+guide), O'Reilly, 4th Edition, 2015
 * Carpenter, J. and Hewitt, E., [Cassandra: The Definitive Guide](https://www.amazon.co.uk/Cassandra-Definitive-Guide-Jeff-Carpenter/dp/1491933666/ref=sr_1_1?ie=UTF8&qid=1514834275&sr=8-1&keywords=cassandra+definitive+guide), 2nd Edition, O'Reilly, 2016 
 * Ghemawat, S., Gobioff, H. and Leung S.-T., [The Google file system](https://research.google.com/archive/gfs.html), SOSP 2003
-* [GFS: Evolution on Fast-Forward](http://queue.acm.org/detail.cfm?id=1594206), ACM Queue, Vol 7, No 7, August, 2009
 * DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A., Sivasubramanian, S., Voshall, P. and Vogels, W., [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP 2007
 
 
 *Further Readings*:
+* [GFS: Evolution on Fast-Forward](http://queue.acm.org/detail.cfm?id=1594206), ACM Queue, Vol 7, No 7, August, 2009
 * Apache Hadoop docs: [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) 
 * Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
 * Nishtala et al, Scaling Memcache at Facebook, NSDI 2013
