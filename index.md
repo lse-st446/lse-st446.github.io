@@ -268,7 +268,15 @@ In this week we will continue by considering distributed machine learning algori
 ---
 #### Week 10. AI applications
 
-We will introduce the basic concepts of performing numerical computations using data flow graphs. In such settings, the graph nodes represent mathematical operations, while the graph edges represent the multidimensional data arrays that flow between them. We will explain the architecture of Tensorflow, an open source library for numerical computations using data flow graphs. We will go over the the use case of learning a deep neural network, taking the basic architecture of a feedforward deep neural network. 
+Lecture: guest lecturer Marc Cohen, Software Engineer, Google "Democratizing AI," providing an overview of cloud services provided by Google for various computation tasks such as machine learning, TensorFlow, Vision API, Translation API, Video intelligence API, Cloud ML engine, and managed TensorFlow at scale.
+
+*Lab*: **Using APIs for solving AI tasks**
+* TBD
+
+---
+#### Week 11. Numerical computations using dataflow graphs
+
+In our last lecture, we will introduce the basic concepts of performing numerical computations using data flow graphs. In such settings, the graph nodes represent mathematical operations, while the graph edges represent the multidimensional data arrays that flow between them. We will explain the architecture of Tensorflow, an open source library for numerical computations using data flow graphs. We will go over the the use case of learning a deep neural network, taking the basic architecture of a feedforward deep neural network.
 
 *Readings*:
 * TensorFlow [API docs](https://www.tensorflow.org/api_docs/)
@@ -280,24 +288,10 @@ We will introduce the basic concepts of performing numerical computations using 
 * Tensorflow [gitHub page](https://github.com/tensorflow/tensorflow)
 * Abadi et al, [A computational model for TensorFlow: an introduction](https://dl.acm.org/citation.cfm?doid=3088525.3088527), MAPL 2017
 * Dean, J., [Large-Scale Deep Learning with Tensorflow](https://www.matroid.com/scaledml/slides/jeff.pdf), ScaledML 2016
-* Yu, D. et al, [An Introduction to Computational Networks and the Computational Network Toolkit](https://www.microsoft.com/en-us/research/publication/an-introduction-to-computational-networks-and-the-computational-network-toolkit/), Microsoft Research Technical Report, 2014 
+* Yu, D. et al, [An Introduction to Computational Networks and the Computational Network Toolkit](https://www.microsoft.com/en-us/research/publication/an-introduction-to-computational-networks-and-the-computational-network-toolkit/), Microsoft Research Technical Report, 2014
 
-
-*Lab*: **Deep neural network learning**
+*Lab*: **Distributed Tensorflow**
 * Import a dataset of labeled images
 * Specify a feedforward deep neural network model
 * Train the model
-* Evaluate the classification accuarcy of the trained model
-
----
-#### Week 11. Numerical computations using dataflow graphs
-
-In the last week, we will discuss how to deploy large-scale computations in a production cluster system. This will cover setting up a cluster system, running jobs over varied number of machines in the cluster, and tracking their progress. We will consider simple Mapreduce jobs as well as machine learning algorithms for prediction tasks on a large-scale data. 
-
-*Readings*:
-* Drabas, T. and Lee, D., _Learning PySpark_, Chapter 11: Packing Spark Applications, Packt, 2017
-
-*Lab*: **Click prediction using 1TB Criteo dataset**
-* Load Criteo [dataset](http://labs.criteo.com/2015/03/criteo-releases-its-new-dataset/) into RDD 
-* Deploy a MapReduce job to compute the click through rate in a cluster system with varying number of machines
-* Training a machine learning algorithm for click prediction using the Criteo dataset 
+* Evaluate the classification accuracy of the trained model
