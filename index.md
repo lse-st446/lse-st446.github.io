@@ -84,7 +84,7 @@ In the first week, we will provide an overview of basic concepts starting with a
 *Lab*: **Getting started** 
 * Command line interface and commands
 * Cluster and bucket creation in a cloud
-* Submitting a "Hello World" job on a cluster
+* Submitting a simple "Hello World" job to a cluster
 * Running a Jupyter notebook on a cluster
 * Use of Docker containers
 
