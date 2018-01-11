@@ -106,18 +106,19 @@ In this week, we will first consider the main design principles of distributed f
 * Carpenter, J. and Hewitt, E., [Cassandra: The Definitive Guide](https://www.amazon.co.uk/Cassandra-Definitive-Guide-Jeff-Carpenter/dp/1491933666/ref=sr_1_1?ie=UTF8&qid=1514834275&sr=8-1&keywords=cassandra+definitive+guide), 2nd Edition, O'Reilly, 2016 
 * Ghemawat, S., Gobioff, H. and Leung S.-T., [The Google file system](https://research.google.com/archive/gfs.html), SOSP 2003
 * [GFS: Evolution on Fast-Forward](http://queue.acm.org/detail.cfm?id=1594206), ACM Queue, Vol 7, No 7, August, 2009
-* Apache Hadoop docs: [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) 
-* Calder, B. et al, [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf), SOSP 2011
-* Huang, C., Simitci, H., Xu, Y., Ogus, A., Caider, B., Gopalan, P., Li, J. and Yekhanin, S., [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012 (Best Paper Award)
-* [Introduction to Microsoft Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)
 * DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A., Sivasubramanian, S., Voshall, P. and Vogels, W., [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP 2007
+
+
+*Further Readings*:
+* Apache Hadoop docs: [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) 
 * Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
 * Nishtala et al, Scaling Memcache at Facebook, NSDI 2013
 * Fitzpatrick, [Distributed Caching with Memcached](http://www.linuxjournal.com/article/7451), 2004
-* Melnik et al, [Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf), VLDB 2010
 * Chang et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
-* Sato, An Inside Look at Google BigQuery, White Paper, 2012
 * Lakshman, A. and Malik, K., [A Decentralized Structured Storage System](http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf), LADIS 2009
+* Calder, B. et al, [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf), SOSP 2011
+* Huang, C., Simitci, H., Xu, Y., Ogus, A., Caider, B., Gopalan, P., Li, J. and Yekhanin, S., [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012 (Best Paper Award)
+
 
 xxx
 
