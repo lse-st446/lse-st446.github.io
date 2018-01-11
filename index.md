@@ -185,9 +185,9 @@ xxx
 * Regex patterns https://www.packtpub.com/application-development/master-python-regular-expressions
 
 *Lab*: **Using RDDs and MapReduce tasks**
-* Use of lambda expressions
-* Use of transformations such as map, filter, flatMap, distinct, sample, leftOuterJoin, and repartition
-* Use of actions such as take, collect, reduce, count, saveAsTextFile and foreach
+* Run a mapreduce job on Hadoop for word count on dblp data
+* Hands-on experience with running operations on resilient distributed datasets in PySpark, such as map, flatMap, filter, distinct, sample, leftOuter and repartition, and actions such as take, collect, reduce, count, saveAsTextFile and foreach
+* Run the word count example using resilient distributed datasets in PySpark
 
 ---
 #### Week 4. Structured data management systems
