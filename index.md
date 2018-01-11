@@ -78,6 +78,12 @@ In the first week, we will provide an overview of basic concepts starting with a
 
 
 *Readings*:
+* Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, 2012
+
+
+xxx
+
+
 * Zaharia, M. et al, [Apache Spark: A Unified Engine for Big Data Processing](https://cacm.acm.org/magazines/2016/11/209116-apache-spark/fulltext), Communications of the ACM, Vol 59, No 11, November 2016
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 1: Understanding Spark, Packt, 2017
 
@@ -123,7 +129,6 @@ In this week, we will first consider the main design principles of distributed f
 xxx
 
 
-* Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, 2012
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 2: Resilient Distributed Datasets, Chapter 3: DataFrames, Packt, 2017
 * Apache [Cassandra](http://cassandra.apache.org/) [Documentation](http://cassandra.apache.org/doc/latest/)
 * Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
