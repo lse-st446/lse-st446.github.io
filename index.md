@@ -81,7 +81,7 @@ In the first week, we will provide an overview of basic concepts starting with a
 
 *Readings*:
 * Vogels, W., [A Decade of Dynamo](http://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html), Blog, All Things Distributed, 02 October 2017
-* Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, 2012
+* Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, Perspectives, 2012
 
 
 *Lab*: **Getting started** 
