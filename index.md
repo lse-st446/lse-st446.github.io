@@ -167,7 +167,7 @@ and Murthy R., [Hive-A Petabyte Scale Data Warhouse Using Hadoop](http://infolab
 *Lab*: **Hive and Spark SQL queries**
 * Run Hive queries, basic standard SQL and Hive specific queries such as TRANSFORM, and MAP and REDUCE, queries
 * Loading data from sources, including JSON, XML, weblogs using regular expressions 
-* Running queries in Spark SQL using dataframe API and Spark Session sql API
+* Run queries in Spark SQL using dataframe API and Spark Session SQL API
 * Data management using BigQuery via web interface and connector with Python
 
 Note: assignment for grading to be given in this week
