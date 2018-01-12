@@ -124,9 +124,9 @@ In this week, we will first consider the main design principles of distributed f
 In this lecture we will explain the basic principles of distributed computation models that are in common use in the context of big data analytics systems. We will start with explaining mapreduce computation model that is in widespread use for distribuged processing of large datasets. We will then move on to consider Pregel computation model, developed for iterative computations such as computing PageRank of a large-scale input graph. Finally, we will consider the concept of a resilient distributed dataset, distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner. This will involve to consider the types of operations performed on resilient distributed datasets and their execution on a distributed cluster of machines. 
 
 *Readings*:
-* Karau, H., Konwinski, A., Wendell, P. and Zaharia, M., Learning Spark: Lightining-fast Data Analysis, O'Reilly, 2015
-* Karau, H. and Warren, R., High Performance Spark: Best Practices for Scaling & Optimizing Apache Spark, O'Reilly, 2017
-* Drabas, T. and Lee D., Learning PySpark, Packt, 2016
+* Karau, H., Konwinski, A., Wendell, P. and Zaharia, M., [Learning Spark: Lightining-fast Data Analysis](https://www.amazon.co.uk/Learning-Spark-Lightning-Fast-Data-Analysis/dp/1449358624), O'Reilly, 2015
+* Karau, H. and Warren, R., [High Performance Spark: Best Practices for Scaling & Optimizing Apache Spark](https://www.amazon.co.uk/High-Performance-Spark-Practices-Optimizing/dp/1491943203), O'Reilly, 2017
+* Drabas, T. and Lee D., [Learning PySpark](https://www.amazon.co.uk/Learning-PySpark-Tomasz-Drabas/dp/1786463709/ref=sr_1_1?ie=UTF8&qid=1515747362&sr=8-1&keywords=learning+pyspark), Packt, 2016
 * Dean, J. and Ghemawat, S., [Mapreduce: Simiplified Data Processing on Large Clusters](https://courses.cs.washington.edu/courses/cse547/17sp/content/Downloads/p107-dean.pdf), Communications of the ACM, Vol 51, No 1, January 2008; original [OSDI 2004 paper](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
 * Zaharia M. et al, [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf), NSDI 2012
 
