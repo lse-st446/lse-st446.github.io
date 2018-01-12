@@ -62,7 +62,7 @@ Some basic prior programming experience is expected. Prior experience with Pytho
 
 ### Software
 
-We will use a wide range of tools, including Apache Hadoop, Apache Hive, Apache Spark / PySpark (Python API for Spark), SQL APIs for querying datasets, Tensorflow library for dataflow programs, Docker, and various services provided by cloud service providers such as Google Cloud Platform. Lectures and assignments will be posted on Github. Students are expected to use Github also to submit problem sets and final exam.
+We will use a wide range of tools, including Juypter notebooks, Apache Hadoop, Apache Hive, Apache Spark / PySpark (Python API for Spark), SQL APIs for querying datasets, Tensorflow library for dataflow programs, Docker, and various cloud computing services, e.g. provided by Google Cloud Platform. Lectures and assignments will be posted on Github. Students are expected to use Github also to submit problem sets and final exam.
 
 Where appropriate, we will use Jupyter notebooks for lab assignments, demonstrations, and the course notes themselves.
 
@@ -80,6 +80,7 @@ In the first week, we will provide an overview of basic concepts starting with a
 
 
 *Readings*:
+* Vogels, W., [A Decade of Dynamo](http://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html), Blog, All Things Distributed
 * Hamilton, J., [One Size Doesn't Fit All](http://perspectives.mvdirona.com/2009/11/one-size-does-not-fit-all/), Blog, 2012
 
 
