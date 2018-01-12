@@ -29,7 +29,7 @@ No lectures or classes will take place during School Reading Week 6.
 | 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) |
 | 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) <br> Guest lecturer: Ryota Tomioka, Researcher, Microsoft Research |
 | 10       | [AI applications](#week-10-ai-applications) <br> Guest lecturer: Marc Cohen, Software Engineer, Google |
-| 11       | [Numerical computations using data flow graphs](#week-11-numerical-computation-using-dataflow-graphs)           |
+| 11       | [Numerical computations using data flow graphs](#week-11-numerical-computations-using-dataflow-graphs)           |
 
 
 
