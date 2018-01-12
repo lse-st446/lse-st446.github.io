@@ -19,17 +19,17 @@ No lectures or classes will take place during School Reading Week 6.
 
 | **Week** | **Topic**                            |
 |----------|--------------------------------------|
-| 1        | [Introduction](#week-1-introduction-to-basic-concepts-and-system-architectures) |
-| 2        | [Distributed file systems and key-value stores](#week-2-databases-and-data-storage-systems)                  |
-| 3        | [Distributed computation models](#week-3-querying-unstructured-datasets)    |
-| 4        | [Structured data management systems](#week-4-querying-structured-datasets)       |
+| 1        | [Introduction](#week-1-introduction) |
+| 2        | [Distributed file systems and key-value stores](#week-2-distributed-file-systems-and-key-value-stores)                  |
+| 3        | [Distributed computation models](#week-3-distributed-computation-models)    |
+| 4        | [Structured data management systems](#week-4-structured-data-management-systems)       |
 | 5        | [Graph data processing](#week-5-graph-data-processing)                  |
 | 6        | _Reading Week_                       |
 | 7        | [Stream data processing](#week-7-stream-data-processing) <br> Guest lecturer: Eno Thereska, Principal Engineer, Amazon |
 | 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) |
 | 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) <br> Guest lecturer: Ryota Tomioka, Researcher, Microsoft Research |
-| 10       | [AI applications](#week-10-numerical-computations-using-data-flow-graphs) <br> Guest lecturer: Marc Cohen, Software Engineer, Google |
-| 11       | [Numerical computations using data flow graphs](#week-11-deployment-of-computation-jobs-in-production)           |
+| 10       | [AI applications](#week-10-ai-applications) <br> Guest lecturer: Marc Cohen, Software Engineer, Google |
+| 11       | [Numerical computations using data flow graphs](#week-11-numerical-computation-using-dataflow-graphs)           |
 
 
 
