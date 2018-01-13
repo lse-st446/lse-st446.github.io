@@ -225,7 +225,7 @@ In this week we will consider the basic concepts of data stream processing syste
 ---
 #### Week 8. Scalable machine learning I
 
-In this week we will introduce the basic concepts of distributed machine learning algorithms for regression and classification tasks. We will discuss batch optimization methods for model parameter estimation by using gradient descent methods and its variations such as [BFGS](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm) and [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS). We will also cover online optimisation methods such as stochastic gradient descent (SGD), parallel SGD and mini-batch SGD methods. We will discuss as model and data paralellisation models. 
+In this week we will introduce the basic concepts of distributed machine learning algorithms for regression and classification tasks. We will discuss batch optimization methods for model parameter estimation by using gradient descent methods and its variations such as [BFGS](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm) and [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS). We will also cover online optimisation methods such as stochastic gradient descent (SGD), parallel SGD and mini-batch SGD methods. We will discuss model and data paralellization models. 
 
 *Readings*:
 * Bottou, L. and Le Cun, Y., [Large Scale Online Learning](http://papers.nips.cc/paper/2365-large-scale-online-learning), NIPS 2003
