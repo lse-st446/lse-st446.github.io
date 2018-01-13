@@ -100,7 +100,8 @@ In this week, we will first consider the main design principles of distributed f
 * White, T., [Hadoop: The Definitive Guide](https://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1491901632/ref=sr_1_1?ie=UTF8&qid=1514806006&sr=8-1&keywords=hadoop+the+definitive+guide), O'Reilly, 4th Edition, 2015
 * Carpenter, J. and Hewitt, E., [Cassandra: The Definitive Guide](https://www.amazon.co.uk/Cassandra-Definitive-Guide-Jeff-Carpenter/dp/1491933666/ref=sr_1_1?ie=UTF8&qid=1514834275&sr=8-1&keywords=cassandra+definitive+guide), 2nd Edition, O'Reilly, 2016 
 * Ghemawat, S., Gobioff, H. and Leung S.-T., [The Google file system](https://research.google.com/archive/gfs.html), SOSP 2003
-* DeCandia, G., Hastorun, D., Jampani, M., Kakulapati, G., Lakshman, A., Pilchin, A., Sivasubramanian, S., Voshall, P. and Vogels, W., [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP 2007
+* DeCandia, G. et al, [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP 2007
+* Chang et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
 
 
 *Further Readings*:
@@ -108,11 +109,10 @@ In this week, we will first consider the main design principles of distributed f
 * Apache Hadoop docs: [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) 
 * Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
 * Nishtala et al, Scaling Memcache at Facebook, NSDI 2013
-* Fitzpatrick, [Distributed Caching with Memcached](http://www.linuxjournal.com/article/7451), 2004
-* Chang et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
+* Fitzpatrick, P., [Distributed Caching with Memcached](http://www.linuxjournal.com/article/7451), 2004
 * Lakshman, A. and Malik, K., [A Decentralized Structured Storage System](http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf), LADIS 2009
 * Calder, B. et al, [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf), SOSP 2011
-* Huang, C., Simitci, H., Xu, Y., Ogus, A., Caider, B., Gopalan, P., Li, J. and Yekhanin, S., [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012
+* Huang, C. et al, [Erasure Coding in Windows Azure Storage](https://www.usenix.org/node/168894), USENIX 2012
 
 *Lab*: **System installation and API practice**
 * Go through Hadoop installation
