@@ -36,15 +36,15 @@ No lectures or classes will take place during School Reading Week 6.
 
 ### Course Description
 
-This course will cover the principles and application programming interfaces of distributed systems for storing and processing big data. This will include the principles of distributed file systems, storage systems, and data models that are in common use in modern on-premise data analytics platforms and cloud computing services. The course will cover the principles of computing over large datasets in distributed computing systems involving multi-core processors and cluster computing systems. Students will learn how to perform canonical distributed computing tasks in batch, interactive and stream processing computation models and how to run scalable machine learning algorithms for regression, classification, clustering and collaborative filtering tasks. 
+This course covers principles and application programming interfaces of distributed systems for storing and processing big data. This includes the principles of distributed file systems, storage systems, and data models that are in common use in modern on-premise data analytics platforms and cloud computing services. The course covers the principles of computing over large datasets in distributed computing systems involving multi-core processors and cluster computing systems. Students will learn how to perform canonical distributed computing tasks in batch, interactive and stream processing settings and how to run scalable machine learning algorithms for regression, classification, clustering and collaborative filtering tasks. 
 
-This course uses a project-based learning approach where students gain hands-on experience with writing and running computer code through computer workshop exercises and project assignments. This will equip students with key skills and knowledge about modern computation platforms for processing big data. In particular, students will gain hands-on experience in working with Apache Hadoop, an open-source software framework used for distributed storage and processing of dataset of big data using the MapReduce programming model and other services such as Apache Hive. They will also gain hands-on experience in working with  Apache Spark, the fastest-growing general engine for processing big data that is used across different industries, and connecting Spark with various data sources and other systems. The students will learn how to run big data analytics tasks locally on their laptops as well as on clusters of machines running in cloud. The students will work on weekly exercises and project assignments by using GitHub, a popular revision-control and group collaboration tool. Each student will develop code for solving one or more computation tasks on an input dataset, and will use GitHub for accessing and submitting course materials and assignments.
+This course uses a project-based learning approach where students gain hands-on experience in using computing tools, services and writing software code through computer workshop exercises and project assignments. This equips students with key skills and knowledge about modern computation platforms for processing big data. In particular, students gain hands-on experience in working with Apache Hadoop, an open-source software framework for distributed storage and processing of dataset of big data using the MapReduce programming model and other services such as Apache Hive. They also gain hands-on experience in working with  Apache Spark, the fastest-growing general engine for processing big data, used across different industries, and connecting Spark with various data sources and other systems. The students learn how to run big data analytics tasks locally on their laptops as well as on distributed clusters of machines in the cloud. The students work on weekly exercises and project assignments by using GitHub, a popular revision-control and group collaboration tool. Each student develops code for solving one or more computation tasks and uses GitHub for accessing and submitting course materials and assignments.
 
-On the theory side, we will introduce the main principles principles of distributed systems for big data analytics, their design objectives, querying paradigms by using MapReduce style computations, general numerical computations using dataflow graphs, and querying using different variants of SQL application programming interfaces. We will consider graph processing algorithms for querying graph properties and iterative computations using input graph data. We will also introduce the principles of stream processing, how to perform computations and execute queries over a sliding-window of input data stream elements. We will study the principles of scalable machine learning algorithms that are based on parallel implementations of gradient descent style algorithms for minimizing a loss function, used for training regression and classification models. We will also consider distributed MapReduce computations for training clustering models such as k-means and collaborative filtering models based on matrix factorization. We will consider numerical computations using dataflow graphs, with a focus on the use case of learning a deep neural network for image classification and other classification tasks. Students will be encouraged to work with computations and data relevant to their own interests.
+On the theory side, we introduce the main principles of distributed systems for big data analytics, their design objectives, querying paradigms by using MapReduce and other computation models, general numerical computations using dataflow graphs, and querying data by using SQL-like application programming interfaces. We consider graph processing algorithms for querying graph properties and iterative computations using input graph data. We introduce the principles of stream processing, how to perform computations and execute queries over a sliding-window of input data stream elements. We study the principles of scalable machine learning algorithms, based on parallel implementations of gradient-descent style algorithms for minimizing a loss function, used for training regression and classification models. We also consider distributed MapReduce computations for training clustering models such as k-means and collaborative filtering models based on matrix factorization. We consider numerical computations using dataflow graphs, with a focus on learning deep neural networks for image classification and other classification tasks. Students are encouraged to work on computations and data relevant to their own interests.
 
-On the practical side, we will cover a variety of tools that are part of a modern data scientist's toolkit, including distributed computing using Apache Hadoop and MapReduce style processing of big data sets, Apache Spark, application programming interfaces for querying structured and unstructured datasets such as Apache Hive, Spark SQL, and Google BigQuery, stream data processing, and deploying large-scale machine learning models. You will learn how to write programmes to define Spark jobs using the Python API and how to deploy a Spark job in a production environment. You will learn how to connect Spark data structures with a variety of external data sources, including key-value data stores, relational databases, and publish-subscribe messaging systems.
+On the practical side, we cover a variety of tools that are part of a modern data scientist's toolkit, including distributed computing using Apache Hadoop and MapReduce style processing of big data sets, Apache Spark, application programming interfaces for querying structured and unstructured datasets such as Apache Hive, Spark SQL, and Google BigQuery, stream data processing, and deploying large-scale machine learning models. Students learn how to write programmes to define Spark jobs using the Python API and how to deploy a Spark job in a production environment. Students learn how to connect Spark data structures with a variety of external data sources, including key-value data stores, relational databases, and publish-subscribe messaging systems.
 
-For the final project, we will ask you to conduct a big data analytics tasks using the principles and technologies learned in class and possibly use some of the technologies not covered in class to a great length (e.g. use an Apache Cassandra database). The project report will typically be in the form a Jupyter notebook describing the solution as well as a working prototype.
+For the final project, students are asked to conduct a big data analytics tasks using the principles and technologies learned in class as well as to learn other related technologies not covered in course in a great length (e.g. working with Apache Cassandra or Microsoft Congitive Toolkit). The project report is typically in the form a Jupyter notebook and a working solution.
 
 
 
@@ -52,7 +52,7 @@ For the final project, we will ask you to conduct a big data analytics tasks usi
 
 This course is an introduction to the fundamental concepts of distributed computing for big data for students and assumes no prior knowledge of these concepts.  
 
-The course will involve 20 hours of lectures and 15 hours of computer workshops in the LT. 	
+The course involves 20 hours of lectures and 15 hours of computer workshops in the LT. 	
 
 
 ### Prerequisites
@@ -62,13 +62,13 @@ Some basic prior programming experience is expected. Prior experience with Pytho
 
 ### Software
 
-We will use a wide range of tools, including Juypter notebooks, Apache Hadoop, Apache Hive, Apache Spark / PySpark (Python API for Spark), SQL APIs for querying datasets, Tensorflow library for dataflow programs, Docker, and various cloud computing services, e.g. provided by Google Cloud Platform. Lectures and assignments will be posted on Github. Students are expected to use Github also to submit problem sets and final exam.
+We use a wide range of tools, including Juypter notebooks, Apache Hadoop, Google Bigtable, Apache Hive, Apache Spark / PySpark (Python API for Spark), SQL APIs for querying datasets, Tensorflow library for dataflow programs, Docker, and various cloud computing services, e.g. provided by the Google Cloud Platform. Lectures and assignments are posted on Github. Students are expected to use Github also to submit problem sets and final exam.
 
-Where appropriate, we will use Jupyter notebooks for lab assignments, demonstrations, and the course notes themselves.
+Where appropriate, we use Jupyter notebooks for lab assignments, demonstrations, and the course notes themselves.
 
 ### Assessment
 
-Project assignment (80%) and continuous assessment in weeks 4 and 7 (10% each). Students will be expected to produce 10 problem sets in the LT. 
+Project assignment (80%) and continuous assessment in weeks 4 and 7 (10% each). Students are expected to produce 10 problem sets in the LT. 
 
 
 ### Schedule
@@ -76,7 +76,7 @@ Project assignment (80%) and continuous assessment in weeks 4 and 7 (10% each). 
 ---
 #### Week 1. Introduction
 
-In the first week, we will provide an overview of basic concepts starting with a definition of big data, followed by an overview of structured, semi-structured and unstructured data types, including relational database tables, delimiter-separated file formats such as csv and tsv files, JSON and XML file formats. We will then consider main properties of traditional relational database management systems, their support of transactions and ACID properties. This will lead us to consider the need for the design of scalable systems, the concepts of horizontal and vertical scaling, and various computer system bottlenecks. We will then go on to consider modern big data analytics systems and how they have evolved over time. We will introduce various computation paradigms such as batch processing, interactive processing, stream processing, and lambda architectures. We will discuss main developments such as mapreduce computation model and noSQL databases. The rest of the lecture is focused on discussion of various computational tasks that led to the development of modern big data analytics systems, which will be studied throughout the course. 
+In the first week, we provide an overview of basic concepts starting with a definition of big data, followed by an overview of structured, semi-structured and unstructured data types, including relational database tables, delimiter-separated file formats such as csv and tsv files, JSON and XML file formats. We then consider main properties of traditional relational database management systems, their support of transactions and ACID properties. This leads us to consider the need for the design of scalable systems, the concepts of horizontal and vertical scaling, and various computer system bottlenecks. We then go on to consider modern big data analytics systems and how they have evolved over time. We introduce various computation paradigms such as batch processing, interactive processing, stream processing, and lambda architecture. We discuss main developments such as MapReduce computation model and noSQL databases. The rest of the lecture discusses various computation tasks that led to the development of modern big data analytics systems, which are studied throughout the course. 
 
 
 *Readings*:
@@ -94,7 +94,7 @@ In the first week, we will provide an overview of basic concepts starting with a
 ---
 #### Week 2. Distributed file systems and key-value stores
 
-In this week, we will first consider the main design principles of distributed file systems, explaining the original Google File System and its refinements, as well as other distributed file systems such as Hadoop Distributed File System (HDFS). We will then consider the main design principles of distributed key-value stores such as Amazon Dynamo and columnar data storage systems such as BigTable and Apache Cassandra. 
+In this week, we first consider the main design principles of distributed file systems, explaining the original Google File System and its refinements, as well as other distributed file systems such as Hadoop Distributed File System (HDFS). We then consider the main design principles of distributed key-value stores such as Amazon Dynamo and columnar data storage systems such as BigTable and Apache Cassandra. 
 
 *Readings*:
 * White, T., [Hadoop: The Definitive Guide](https://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1491901632/ref=sr_1_1?ie=UTF8&qid=1514806006&sr=8-1&keywords=hadoop+the+definitive+guide), O'Reilly, 4th Edition, 2015
@@ -123,7 +123,7 @@ In this week, we will first consider the main design principles of distributed f
 ---
 #### Week 3. Distributed computation models
 
-In this lecture we will explain the basic principles of distributed computation models that are in common use in the context of big data analytics systems. We will start with explaining mapreduce computation model that is in widespread use for distribuged processing of large datasets. We will then move on to consider Pregel computation model, developed for iterative computations such as computing PageRank of a large-scale input graph. Finally, we will consider the concept of a resilient distributed dataset, distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner. This will involve to consider the types of operations performed on resilient distributed datasets and their execution on a distributed cluster of machines. 
+In this lecture we explain the basic principles of distributed computation models that are in common use in the context of big data analytics systems. We start with explaining MapReduce computation model that is in widespread use for distributed processing of large datasets. We then move on to consider Pregel computation model, developed for iterative computations such as computing PageRank vector for a large-scale input graph. Finally, we consider the concept of a Resilient Distributed Dataset (RDD), a distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner. This involves to consider the types of operations performed on RDDs and their execution on a distributed cluster of machines. 
 
 *Readings*:
 * Karau, H., Konwinski, A., Wendell, P. and Zaharia, M., [Learning Spark: Lightining-fast Data Analysis](https://www.amazon.co.uk/Learning-Spark-Lightning-Fast-Data-Analysis/dp/1449358624), O'Reilly, 2015
@@ -140,15 +140,15 @@ In this lecture we will explain the basic principles of distributed computation 
 * Chambers B. and Zaharia M., Spark: The Definitive Guide, databricks, 2017
 * Spark documentation: [PySpark package](http://spark.apache.org/docs/2.1.0/api/python/pyspark.html)
 
-*Lab*: **Mapreduce and resilient distributed datasets**
-* Run a mapreduce job on Hadoop for word count on dblp data
+*Lab*: **MapReduce and resilient distributed datasets**
+* Run a MapReduce job on Hadoop for word count on dblp data
 * Hands-on experience with running operations on resilient distributed datasets in PySpark, such as map, flatMap, filter, distinct, sample, leftOuter and repartition, and actions such as take, collect, reduce, count, saveAsTextFile and foreach
 * Run the word count example using resilient distributed datasets in PySpark
 
 ---
 #### Week 4. Structured data management systems
 
-In this week we will consider systems for big data analytics using structured query languages. We will start with considering the main architectural principles of Apache Hive, a data warehouse solution running on top of Apache Hadoop. We will consider data types and query language used by Hive. We will then consider the main design principles that underlie Dremel (BigQuery) and Spark SQL for querying data using structured query languages. 
+In this week we consider systems for big data analytics using structured query languages. We start with considering the main architectural principles of Apache Hive, a data warehouse solution running on top of Apache Hadoop. We consider data types and query language used by Hive. We then consider the main design principles of Dremel (BigQuery) and Spark SQL for querying data using structured query languages. 
 
 *Readings*:
 * White, T., [Hadoop: The Definitive Guide](https://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1491901632/ref=sr_1_1?ie=UTF8&qid=1514806006&sr=8-1&keywords=hadoop+the+definitive+guide), O'Reilly, 4th Edition, 2015
@@ -179,7 +179,7 @@ Note: assignment for grading to be given in this week
 ---
 #### Week 5. Graph data processing
 
-In this week we will consider principles and systems for scalable processing of large-scale graph data. This include queries such as evaluating node centralities (e.g. degree centrality), graph traversal or motif queries for finding structural in graph data (e.g. identifying friends-of-friends of a person who were born in London), and iterative algorithms on graph input data (e.g. computing PageRank node centralities). We will discuss different data models for representation of graph data such as [RDF](http://www.w3.org/TR/rdf-sparql-query/), as well as query languages, including [SPARQL](http://www.w3.org/TR/rdf-sparql-query/), [Gremlin](http://tinkerpop.apache.org/), [Cypher](https://neo4j.com/developer/cypher/) and [openCyper](http://www.opencypher.org/) that used in graph databases. We will introduce the bulk synchronous parallel computation model that underlies the design of modern computation platforms for iterative computing on input graph data. 
+In this week we consider principles and systems for scalable processing of large-scale graph data. This includes queries such as evaluating node centralities (e.g. degree centrality), graph traversal or motif queries for finding structures in graph data (e.g. identifying friends-of-friends of a person who were born in London), and iterative algorithms on graph input data (e.g. computing PageRank node centralities). We discuss different data models for representation of graph data such as [RDF](http://www.w3.org/TR/rdf-sparql-query/), as well as query languages, including [SPARQL](http://www.w3.org/TR/rdf-sparql-query/), [Gremlin](http://tinkerpop.apache.org/), [Cypher](https://neo4j.com/developer/cypher/) and [openCyper](http://www.opencypher.org/) that used in graph databases. We introduce the Bulk Synchronous Parallel computation model that underlies the design of modern computation platforms for iterative computing on input graph data. 
 
 
 *Readings*:
@@ -206,7 +206,7 @@ In this week we will consider principles and systems for scalable processing of 
 ---
 #### Week 7. Stream data processing
 
-In this week we will consider the basic concepts of data stream processing systems. We will explain various global aggregators, cumulative, and sliding-window stream data processing tasks. We will introduce the concept of publish-subscribe systems and use Apache Kafka as an example. We will discuss the importance of fault tolerance in stream processing systems and discuss fault tolerance models such as execute exactly-once. In this context, we will discuss the guarantees provided by Zookeper, an open source server which enables highly reliable distributed coordination.  
+In this week we consider basic concepts of data stream processing systems. We explain various global aggregators, cumulative, and sliding-window stream data processing tasks. We introduce the concept of publish-subscribe systems, taking Apache Kafka as an example. We discuss the importance of fault tolerance in stream processing systems and discuss fault tolerance models such as _execute exactly-once_. In this context, we discuss the guarantees provided by Zookeper, an open source server which enables highly reliable distributed coordination.  
 
 *Readings*:
 * Spark [streaming programming guide](http://spark.apache.org/docs/latest/streaming-programming-guide.html)
@@ -226,7 +226,7 @@ In this week we will consider the basic concepts of data stream processing syste
 ---
 #### Week 8. Scalable machine learning I
 
-In this week we will introduce the basic concepts of distributed machine learning algorithms for regression and classification tasks. We will discuss batch optimization methods for model parameter estimation by using gradient descent methods and its variations such as [BFGS](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm) and [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS). We will also cover online optimisation methods such as stochastic gradient descent (SGD), parallel SGD and mini-batch SGD methods. We will discuss model and data paralellization models. 
+In this week we introduce basic concepts of distributed machine learning algorithms for regression and classification tasks. We discuss batch optimization methods for model parameter estimation by using gradient descent methods and its variations such as [BFGS](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm) and [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS). We also cover online optimisation methods such as stochastic gradient descent (SGD), parallel SGD and mini-batch SGD methods. We discuss model and data paralellization models. 
 
 *Readings*:
 * Bottou, L. and Le Cun, Y., [Large Scale Online Learning](http://papers.nips.cc/paper/2365-large-scale-online-learning), NIPS 2003
@@ -251,7 +251,7 @@ Note: assignment for grading to be given in this week
 ---
 #### Week 9. Scalable machine learning II
 
-In this week we will continue by considering distributed machine learning algorithms for clustering and collaborative filtering tasks. We will discuss a Mapreduce algorithm for k-means clustering problem, as well as an iterative algorithm for a collaborative filtering problem. We will consider Spark API approaches provided by MLib and ML packages. For the latter, we will introduce the concept of a pipeline that consists of a dataflow passing through transformer and estimator operators. 
+In this week we continue by considering distributed machine learning algorithms for clustering and collaborative filtering tasks. We discuss a MapReduce algorithm for k-means clustering problem, as well as an iterative algorithm for collaborative filtering tasks. We consider Spark API approaches provided by MLib and ML packages. In the latter context, we introduce the concept of a pipeline that consists of a dataflow passing through transformer and estimator operators. 
 
 
 *Readings*:
@@ -276,12 +276,12 @@ Guest lecture: "Democratizing AI," Marc Cohen, Software Engineer, Google.
 The lecture will provide an overview of cloud services provided by Google including TensorFlow, vision API, translation API, video intelligence API, cloud ML engine, and managed TensorFlow at scale.
 
 *Lab*: **Using APIs for solving AI tasks**
-* TBD
+* g.co/codelabs assignment
 
 ---
 #### Week 11. Numerical computations using dataflow graphs
 
-In our last lecture, we will introduce the basic concepts of performing numerical computations using data flow graphs. In such settings, the graph nodes represent mathematical operations, while the graph edges represent the multidimensional data arrays that flow between them. We will explain the architecture of Tensorflow, an open source library for numerical computations using data flow graphs. We will go over the the use case of learning a deep neural network, taking the basic architecture of a feedforward deep neural network.
+In our last lecture, we introduce basic concepts of performing numerical computations using data flow graphs. In such settings, the graph nodes represent mathematical operations, while the graph edges represent multidimensional data arrays that flow between them. We explain the architecture of Tensorflow, an open source library for numerical computations using data flow graphs. We go over the the use case of learning a deep neural network, taking the basic architecture of a feedforward deep neural network.
 
 *Readings*:
 * TensorFlow [API docs](https://www.tensorflow.org/api_docs/)
