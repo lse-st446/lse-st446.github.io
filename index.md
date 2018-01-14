@@ -109,7 +109,7 @@ In this week, we first consider the main design principles of distributed file s
 * [GFS: Evolution on Fast-Forward](http://queue.acm.org/detail.cfm?id=1594206), ACM Queue, Vol 7, No 7, August, 2009
 * Apache Hadoop docs: [HDFS Architecture](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) 
 * Vogels, W., [Amazon's Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html), Blog, 2007
-* Nishtala et al, Scaling Memcache at Facebook, NSDI 2013
+* Nishtala, R. et al, [Scaling Memcache at Facebook](https://www.usenix.org/node/172909), NSDI 2013
 * Fitzpatrick, P., [Distributed Caching with Memcached](http://www.linuxjournal.com/article/7451), 2004
 * Lakshman, A. and Malik, K., [A Decentralized Structured Storage System](http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf), LADIS 2009
 * Calder, B. et al, [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf), SOSP 2011
@@ -130,14 +130,14 @@ In this lecture we explain the basic principles of distributed computation model
 * Karau, H. and Warren, R., [High Performance Spark: Best Practices for Scaling & Optimizing Apache Spark](https://www.amazon.co.uk/High-Performance-Spark-Practices-Optimizing/dp/1491943203), O'Reilly, 2017
 * Drabas, T. and Lee D., [Learning PySpark](https://www.amazon.co.uk/Learning-PySpark-Tomasz-Drabas/dp/1786463709/ref=sr_1_1?ie=UTF8&qid=1515747362&sr=8-1&keywords=learning+pyspark), Packt, 2016
 * Dean, J. and Ghemawat, S., [Mapreduce: Simiplified Data Processing on Large Clusters](https://courses.cs.washington.edu/courses/cse547/17sp/content/Downloads/p107-dean.pdf), Communications of the ACM, Vol 51, No 1, January 2008; original [OSDI 2004 paper](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-* Zaharia M. et al, [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf), NSDI 2012
+* Zaharia, M. et al, [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](http://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf), NSDI 2012
 
 *Further Readings*:
 * Apache Hadoop [documentation](http://hadoop.apache.org/docs/r3.0.0/)
 * Apache Hadoop documentation: [MapReduce Tutorial](http://hadoop.apache.org/docs/r3.0.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
-* Malewicz G. et al, [Pregel: A System for Large-Scale Graph Processing](https://www.cs.cmu.edu/~pavlo/courses/fall2013/static/papers/p135-malewicz.pdf), SIGMOD 2010
+* Malewicz, G. et al, [Pregel: A System for Large-Scale Graph Processing](https://www.cs.cmu.edu/~pavlo/courses/fall2013/static/papers/p135-malewicz.pdf), SIGMOD 2010
 * Spark programming [guide](https://spark.apache.org/docs/latest/rdd-programming-guide.html)   
-* Chambers B. and Zaharia M., Spark: The Definitive Guide, databricks, 2017
+* Chambers, B. and Zaharia, M., Spark: The Definitive Guide, databricks, 2017
 * Spark documentation: [PySpark package](http://spark.apache.org/docs/2.1.0/api/python/pyspark.html)
 
 *Lab*: **MapReduce and resilient distributed datasets**
@@ -161,8 +161,7 @@ In this week we consider systems for big data analytics using structured query l
 *Further Readings*:
 * Apache Hive [Tutorial](https://cwiki.apache.org/confluence/display/Hive/Tutorial)
 * Apache Hive [Language Manual](https://cwiki.apache.org/confluence/display/Hive/LanguageManual)
-* Thusoo, A., Sarma, J.-S., Jain, N., Shao, Z., Chakka, P., Zhang, N., Antony S., Liu, H.
-and Murthy R., [Hive-A Petabyte Scale Data Warhouse Using Hadoop](http://infolab.stanford.edu/~ragho/hive-icde2010.pdf), ICDE 2010
+* Thusoo, A. et al, [Hive-A Petabyte Scale Data Warhouse Using Hadoop](http://infolab.stanford.edu/~ragho/hive-icde2010.pdf), ICDE 2010
 * Spark SQL programming guide: [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html), Apache Spark 2.2.0, 2017
 * Armbrust, M., et al, [Spark SQL: Relational Data Processing in Spark](https://amplab.cs.berkeley.edu/wp-content/uploads/2015/03/SparkSQLSigmod2015.pdf), ACM SIGMOD 2015
 * Armbrust, M., [Dataframes: Simple and Fast Analysis of Structured Data](http://go.databricks.com/databricks-webinar-spark-dataframes-simple-and-fast-analysis-of-structured-data-0), Webinar, 2017
@@ -285,7 +284,7 @@ In our last lecture, we introduce basic concepts of performing numerical computa
 
 *Readings*:
 * TensorFlow [API docs](https://www.tensorflow.org/api_docs/)
-* Abadi et al, [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi), OSDI 2016
+* Abadi, M. et al, [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi), OSDI 2016
 * Drabas, T. and Lee, D., _Learning PySpark_, Chapter 8: TensorFrames, Packt, 2017
 * TensorFrames [gitHub page](https://github.com/databricks/tensorframes)
 
