@@ -102,7 +102,7 @@ In this week, we first consider the main design principles of distributed file s
 * Ghemawat, S., Gobioff, H. and Leung S.-T., [The Google file system](https://research.google.com/archive/gfs.html), SOSP 2003
 * Shvachko, K. et al, [The Hadoop Distributed File System](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf), IEEE MSST 2010; see also [html](http://www.aosabook.org/en/hdfs.html)
 * DeCandia, G. et al, [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP 2007
-* Chang et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
+* Chang, F. et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
 
 
 *Further Readings*:
