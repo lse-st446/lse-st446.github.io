@@ -100,7 +100,7 @@ In this week, we will first consider the main design principles of distributed f
 * White, T., [Hadoop: The Definitive Guide](https://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1491901632/ref=sr_1_1?ie=UTF8&qid=1514806006&sr=8-1&keywords=hadoop+the+definitive+guide), O'Reilly, 4th Edition, 2015
 * Carpenter, J. and Hewitt, E., [Cassandra: The Definitive Guide](https://www.amazon.co.uk/Cassandra-Definitive-Guide-Jeff-Carpenter/dp/1491933666/ref=sr_1_1?ie=UTF8&qid=1514834275&sr=8-1&keywords=cassandra+definitive+guide), 2nd Edition, O'Reilly, 2016 
 * Ghemawat, S., Gobioff, H. and Leung S.-T., [The Google file system](https://research.google.com/archive/gfs.html), SOSP 2003
-* Chansler, R. et al, [The Hadoop Distributed File System](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf), IEEE MSST 2010; see also [html](http://www.aosabook.org/en/hdfs.html)
+* Shvachko, K. et al, [The Hadoop Distributed File System](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf), IEEE MSST 2010; see also [html](http://www.aosabook.org/en/hdfs.html)
 * DeCandia, G. et al, [Dynamo: Amazon’s Highly Available Key-value Store](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf), SOSP 2007
 * Chang et al, [Bigtable: A distributed storage system for structured data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf), OSDI 2006
 
