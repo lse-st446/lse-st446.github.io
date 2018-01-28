@@ -146,7 +146,7 @@ In this lecture we explain the basic principles of distributed computation model
 * Run the word count example using resilient distributed datasets in PySpark
 
 ---
-#### Week 4. Structured data management systems
+#### Week 4. Structured queries over large datasets
 
 In this week we consider systems for big data analytics using structured query languages. We start with considering the main architectural principles of Apache Hive, a data warehouse solution running on top of Apache Hadoop. We consider data types and query language used by Hive. We then consider the main design principles of Dremel (BigQuery) and Spark SQL for querying data using structured query languages. 
 
