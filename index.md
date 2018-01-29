@@ -26,7 +26,7 @@ No lectures or classes will take place during School Reading Week 6.
 | 5        | [Graph data processing](#week-5-graph-data-processing)                  |
 | 6        | _Reading Week_                       |
 | 7        | [Stream data processing](#week-7-stream-data-processing) <br> Guest lecturer: Eno Thereska, Principal Engineer, Amazon |
-| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) |
+| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) <br> Guest lecturer: Ulrich Paquet, Research Scientist, Google DeepMind | 
 | 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) <br> Guest lecturer: Ryota Tomioka, Researcher, Microsoft Research |
 | 10       | [AI applications](#week-10-ai-applications) <br> Guest lecturer: Marc Cohen, Software Engineer, Google |
 | 11       | [Numerical computations using data flow graphs](#week-11-numerical-computations-using-dataflow-graphs)           |
