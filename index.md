@@ -23,7 +23,7 @@ No lectures or classes will take place during School Reading Week 6.
 | 2        | [Distributed file systems and key-value stores](#week-2-distributed-file-systems-and-key-value-stores)                  |
 | 3        | [Distributed computation models](#week-3-distributed-computation-models)    |
 | 4        | [Structured queries over large datasets](#week-4-structured-data-management-systems)       |
-| 5        | [Graph data processing](#week-5-graph-data-processing)                  |
+| 5        | [Graph data processing](#week-5-graph-data-processing) <br> Guest lecturer: Mark Needham, Software Engineer, Neo4j                  |
 | 6        | _Reading Week_                       |
 | 7        | [Stream data processing](#week-7-stream-data-processing) <br> Guest lecturer: Eno Thereska, Principal Engineer, Amazon |
 | 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) <br> Guest lecturer: Ulrich Paquet, Research Scientist, Google DeepMind | 
