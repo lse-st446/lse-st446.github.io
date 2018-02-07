@@ -5,10 +5,10 @@
 
 ### Instructors
 
-* [Milan Vojnovic](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL 5.05
+* [Milan Vojnovic](http://personal.lse.ac.uk/vojnovic/), [email](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL 5.05
 
 ### Teaching Assistant
-* [Christine Yuen](mailto:L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Monday 13:00 - 14:00, COL 5.03 (from week 2)
+* [Christine Yuen](http://personal.lse.ac.uk/yuenl/), [email](mailto:L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Monday 13:00 - 14:00, COL 5.03 (from week 2)
 
 ### Course Information
 
