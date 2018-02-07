@@ -23,12 +23,12 @@ No lectures or classes will take place during School Reading Week 6.
 | 2        | [Distributed file systems and key-value stores](#week-2-distributed-file-systems-and-key-value-stores)                  |
 | 3        | [Distributed computation models](#week-3-distributed-computation-models)    |
 | 4        | [Structured queries over large datasets](#week-4-structured-data-management-systems)       |
-| 5        | [Graph data processing](#week-5-graph-data-processing) <br> Guest lecturer: Mark Needham, Software Engineer, Neo4j                  |
+| 5        | [Graph data processing](#week-5-graph-data-processing) <br> Guest lecturer: [Mark Needham](https://neo4j.com/blog/contributor/mark-needham/), Software Engineer, Neo4j                  |
 | 6        | _Reading Week_                       |
-| 7        | [Stream data processing](#week-7-stream-data-processing) <br> Guest lecturer: Eno Thereska, Principal Engineer, Amazon |
-| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) <br> Guest lecturer: Ulrich Paquet, Research Scientist, Google DeepMind | 
-| 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) <br> Guest lecturer: Ryota Tomioka, Researcher, Microsoft Research |
-| 10       | [AI applications](#week-10-ai-applications) <br> Guest lecturer: Marc Cohen, Software Engineer, Google |
+| 7        | [Stream data processing](#week-7-stream-data-processing) <br> Guest lecturer: [Eno Thereska](https://enothereska.wordpress.com/), Principal Engineer, Amazon |
+| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) <br> Guest lecturer: [Ulrich Paquet](http://ulrichpaquet.com/), Research Scientist, Google DeepMind | 
+| 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) <br> Guest lecturer: [Ryota Tomioka](https://www.microsoft.com/en-us/research/people/ryoto/), Researcher, Microsoft Research |
+| 10       | [AI applications](#week-10-ai-applications) <br> Guest lecturer: [Marc Cohen](https://about.me/marc1), Software Engineer, Google |
 | 11       | [Numerical computations using data flow graphs](#week-11-numerical-computations-using-dataflow-graphs)           |
 
 
