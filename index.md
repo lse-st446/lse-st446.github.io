@@ -266,11 +266,11 @@ for clustering and collaborative filtering tasks. We discuss a MapReduce algorit
 * Topic modelling using Latent Dirichlet Allocation
 
 ---
-#### Week 10. AI applications
+#### Week 10. Cloud computing services
 
-Guest lecture: "Data Science in the Clould," Marc Cohen, Software Engineer, Google. 
+Guest lecture: "Data Science in the Cloud," Marc Cohen, Software Engineer, Google. 
 
-The lecture will provide an overview of cloud services provided by Google including Compute Engine, Cloud ML Engine, Vision API, Translation API, Video intelligence API, and managed TensorFlow at scale.
+The lecture will provide an overview of cloud services provided by Google including Compute Engine, Cloud ML Engine, Vision API, Translation API, Video intelligence API, and managed TensorFlow at scale. 
 
 *Lab*: **Introduction to deep learning using TensorFlow**
 * TenorFlow and Deep Learning, without a PhD [Google colde labs](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)
