@@ -292,6 +292,6 @@ In our last lecture, we introduce basic concepts of distributed computing using 
 * Dean, J., [Large-Scale Deep Learning with Tensorflow](https://www.matroid.com/scaledml/slides/jeff.pdf), ScaledML 2016
 
 *Lab*: **Distributed TensorFlow**
-* Google Cloud Platform: [Running Distributed TensorFlow on Compute Engine](https://cloud.google.com/solutions/running-distributed-tensorflow-on-compute-engine)* Specify a feedforward deep neural network model
+* Google Cloud Platform: [Running Distributed TensorFlow on Compute Engine](https://cloud.google.com/solutions/running-distributed-tensorflow-on-compute-engine)
 * https://github.com/GoogleCloudPlatform/cloudml-dist-mnist-example
 * [Using Distributed TensorFlow with Cloud ML Engine and Cloud Datalab](https://cloud.google.com/ml-engine/docs/distributed-tensorflow-mnist-cloud-datalab)
