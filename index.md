@@ -29,7 +29,7 @@ No lectures or classes will take place during School Reading Week 6.
 | 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) <br> Guest lecturer: [Ulrich Paquet](http://ulrichpaquet.com/), Research Scientist, Google DeepMind | 
 | 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) <br> Guest lecturer: [Ryota Tomioka](https://www.microsoft.com/en-us/research/people/ryoto/), Researcher, Microsoft Research |
 | 10       | [AI applications](#week-10-ai-applications) <br> Guest lecturer: [Marc Cohen](https://about.me/marc1), Software Engineer, Google |
-| 11       | [Numerical computations using data flow graphs](#week-11-numerical-computations-using-dataflow-graphs)           |
+| 11       | [Distributed dataflow graph computations](#week-11-distributed-dataflow-graph-computations)           |
 
 
 
@@ -225,77 +225,73 @@ In this week we consider basic concepts of data stream processing systems. We ex
 ---
 #### Week 8. Scalable machine learning I
 
-In this week we introduce basic concepts of distributed machine learning algorithms for regression and classification tasks. We discuss batch optimization methods for model parameter estimation by using gradient descent methods and its variations such as [BFGS](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm) and [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS). We also cover online optimisation methods such as stochastic gradient descent (SGD), parallel SGD and mini-batch SGD methods. We discuss model and data paralellization models. 
+In this week we introduce the basic concepts of scalable distributed machine learning algorithms for regression and classification tasks. We discuss batch optimization methods for model parameter estimation using iterative methods such as gradient descent, batch gradient descent, stochastic gradient descent, and quasi-Newton methods such as [BFGS](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm) and [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS). 
 
 *Readings*:
 * Bottou, L. and Le Cun, Y., [Large Scale Online Learning](http://papers.nips.cc/paper/2365-large-scale-online-learning), NIPS 2003
 * Drabas, T. and Lee, D.  _Learning PySpark_, Chapter 5: Intoducing MLib, Packt, 2017
-* Spark programming guide [MLib: RDD-based API](https://spark.apache.org/docs/latest/mllib-guide.html) 
+* Spark programming guide [Machine Learning Library (MLlib) Guide](https://spark.apache.org/docs/2.2.0/ml-guide.html) 
 
 *Further Resources*:
 * Li, M., [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf), OSDI 2014
 * [Numerical optimization: understanding L-BFGS](http://aria42.com/blog/2014/12/understanding-lbfgs), blog, December 2, 2014
 * Machine Learning [Glossary](https://developers.google.com/machine-learning/glossary)
 
-*Lab*: **Spark ML package and churn prediction task**
-* Basic features of Spark MLib package 
-* Churn prediction:
-   * Import the Orange Telecoms Churn dataset
-   * Train a logistic regression model, compute predictions
-   * Train a decision tree model, compute predictions
-   * Evaluate and compare the two models
+*Lab*: **Logistic regression using Spark MLlib**
+* Training a logistic regression model using batch gradient descent in Spark MLlib
+* Comparison of stochastic gradient descent and L-BFGS methods
 
 Note: assignment for grading to be given in this week
 
 ---
 #### Week 9. Scalable machine learning II
 
-In this week we continue by considering distributed machine learning algorithms for clustering and collaborative filtering tasks. We discuss a MapReduce algorithm for k-means clustering problem, as well as an iterative algorithm for collaborative filtering tasks. We consider Spark API approaches provided by MLib and ML packages. In the latter context, we introduce the concept of a pipeline that consists of a dataflow passing through transformer and estimator operators. 
+In this week we continue by considering distributed machine learning algorithms for learning deep neural networks, and consider distributed algorithms for other machine learning problems such as collaborative filtering for recommendation systems and topic model for text data analysis. 
+
+for clustering and collaborative filtering tasks. We discuss a MapReduce algorithm for k-means clustering problem, as well as an iterative algorithm for collaborative filtering tasks. We consider Spark API approaches provided by MLib and ML packages. In the latter context, we introduce the concept of a pipeline that consists of a dataflow passing through transformer and estimator operators. 
 
 
 *Readings*:
 * Murphy, K. P., _Machine Learning: A Probabilistic Perspective_, k-means, Section 11.4.2.5, The MIT Press, 2012  
 * Drabas, T. and Lee, D.  _Learning PySpark_, Chapter 5: Intoducing MLib and Chapter 6: Introducting the ML Package, Packt, 2017
-* Spark programming guide [MLib: RDD-based API](https://spark.apache.org/docs/latest/mllib-guide.html) 
+* Spark programming guide [Machine Learning Library (MLlib) Guide](https://spark.apache.org/docs/2.2.0/ml-guide.html) 
 
 *Further Resources*:
-* Moore, A., [K-means and Hierarchical Clustering Tutorial](https://www.autonlab.org/tutorials/kmeans.html)
 * Wang, Q., [Spark machine learning pipeline by example](https://community.hortonworks.com/articles/53903/spark-machine-learning-pipeline-by-example.html), August 31, 2016
 * Zadeh, R. et al, [Matrix Computations and Optimizations in Spark](http://www.kdd.org/kdd2016/subtopic/view/matrix-computations-and-optimization-in-apache-spark), KDD 2016
 
-*Lab*: **Clustering and movies recommendation**
-* k-means clustering using a Mapreduce algorithm
-* Movie recommendations using MovieLens data and training a collaborative filtering model using Alternating Least Square (ALS) algorithm
+*Lab*: **Collaborative filtering and topic modelling using Spark MLlib**
+* Movielens movie recommendation problem using Alternating Least Squares
+* Latent semantic indexing using singular value decomposition
+* Topic modelling using Latent Dirichlet Allocation
 
 ---
 #### Week 10. AI applications
 
-Guest lecture: "Democratizing AI," Marc Cohen, Software Engineer, Google. 
+Guest lecture: "Data Science in the Clould," Marc Cohen, Software Engineer, Google. 
 
-The lecture will provide an overview of cloud services provided by Google including TensorFlow, vision API, translation API, video intelligence API, cloud ML engine, and managed TensorFlow at scale.
+The lecture will provide an overview of cloud services provided by Google including Compute Engine, Cloud ML Engine, Vision API, Translation API, Video intelligence API, and managed TensorFlow at scale.
 
-*Lab*: **Using APIs for solving AI tasks**
-* g.co/codelabs assignment
+*Lab*: **Introduction to deep learning using TensorFlow**
+* TenorFlow and Deep Learning, without a PhD [Google colde labs](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)
 
 ---
-#### Week 11. Numerical computations using dataflow graphs
+#### Week 11. Distributed dataflow graph computations
 
-In our last lecture, we introduce basic concepts of performing numerical computations using data flow graphs. In such settings, the graph nodes represent mathematical operations, while the graph edges represent multidimensional data arrays that flow between them. We explain the architecture of Tensorflow, an open source library for numerical computations using data flow graphs. We go over the the use case of learning a deep neural network, taking the basic architecture of a feedforward deep neural network.
+In our last lecture, we introduce basic concepts of distributed computing using dataflow graphs. In such settings, the user defines a dataflow graph where nodes of the graph represent operations (e.g. a matrix multiplication, a non-linear function) and edges represent flow of data between operations. We will primarily focus on one system that uses dataflow graph computations, namely, TensorFlow, used for learning and inference for deep neural networks. We will explain the key system architectural concepts that underlie the design of TensorFlow as well as the application programming interface. 
 
 *Readings*:
-* TensorFlow [API docs](https://www.tensorflow.org/api_docs/)
 * Abadi, M. et al, [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi), OSDI 2016
-* Drabas, T. and Lee, D., _Learning PySpark_, Chapter 8: TensorFrames, Packt, 2017
-* TensorFrames [gitHub page](https://github.com/databricks/tensorframes)
+* DistBelief: Dean, J., [Large Scale Distributed Deep Networks](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/40565.pdf), NIPS 2012
+* TensorFlow [API docs](https://www.tensorflow.org/api_docs/)
+
 
 *Further Resources*:
 * Tensorflow [gitHub page](https://github.com/tensorflow/tensorflow)
 * Abadi et al, [A computational model for TensorFlow: an introduction](https://dl.acm.org/citation.cfm?doid=3088525.3088527), MAPL 2017
 * Dean, J., [Large-Scale Deep Learning with Tensorflow](https://www.matroid.com/scaledml/slides/jeff.pdf), ScaledML 2016
-* Yu, D. et al, [An Introduction to Computational Networks and the Computational Network Toolkit](https://www.microsoft.com/en-us/research/publication/an-introduction-to-computational-networks-and-the-computational-network-toolkit/), Microsoft Research Technical Report, 2014
 
-*Lab*: **Distributed Tensorflow**
-* Import a dataset of labeled images
-* Specify a feedforward deep neural network model
-* Train the model
-* Evaluate the classification accuracy of the trained model
+*Lab*: **Distributed TensorFlow**
+* Google Cloud Platform: [Running Distributed TensorFlow on Compute Engine](https://cloud.google.com/solutions/running-distributed-tensorflow-on-compute-engine)* Specify a feedforward deep neural network model
+* https://github.com/GoogleCloudPlatform/cloudml-dist-mnist-example
+* [Using Distributed TensorFlow with Cloud ML Engine and Cloud Datalab](https://cloud.google.com/ml-engine/docs/distributed-tensorflow-mnist-cloud-datalab)
