@@ -277,7 +277,7 @@ Guest lecture: "Data Science in the Cloud," Marc Cohen, Software Engineer, Googl
 The lecture will provide an overview of cloud services provided by Google including Compute Engine, Cloud ML Engine, Vision API, Translation API, Video intelligence API, and managed TensorFlow at scale. 
 
 *Lab*: **Introduction to deep learning using TensorFlow**
-* TenorFlow and Deep Learning, without a PhD [Google colde labs](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)
+* TenorFlow and Deep Learning, without a PhD [Google code labs](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)
 
 ---
 #### Week 11. Distributed dataflow graph computations
