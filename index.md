@@ -252,13 +252,17 @@ for clustering and collaborative filtering tasks. We discuss a MapReduce algorit
 
 
 *Readings*:
-* Murphy, K. P., _Machine Learning: A Probabilistic Perspective_, k-means, Section 11.4.2.5, The MIT Press, 2012  
 * Drabas, T. and Lee, D.  _Learning PySpark_, Chapter 5: Intoducing MLib and Chapter 6: Introducting the ML Package, Packt, 2017
 * Spark programming guide [Machine Learning Library (MLlib) Guide](https://spark.apache.org/docs/2.2.0/ml-guide.html) 
 
 *Further Resources*:
-* Wang, Q., [Spark machine learning pipeline by example](https://community.hortonworks.com/articles/53903/spark-machine-learning-pipeline-by-example.html), August 31, 2016
 * Zadeh, R. et al, [Matrix Computations and Optimizations in Spark](http://www.kdd.org/kdd2016/subtopic/view/matrix-computations-and-optimization-in-apache-spark), KDD 2016
+* Koren, Y., Bell, R. and Volinsky, C., [Matrix Factorization Techniques for Recommender Systems](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf), Computer, Vol 42, No 8, 2009
+* Deerwester, S., Dumais, S. T., and Harshman, R., [Indexing by Latent Semantic Analysis](http://www.psychology.uwo.ca/faculty/harshman/latentsa.pdf), Journal of the American Society for Information Science, Vol 41, No 6, 391-407, 1990
+* Blei, D. M., Ng, A. Y., and Jordan, M., I., [Latent Dirichlet Allocation](http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf), JMLR 2003 
+* Hoffman, M., Bach, F. R., and Blei, D. M., [Online Learning for Latent Dirichlet Allocation](https://papers.nips.cc/paper/3902-online-learning-for-latent-dirichlet-allocation), NIPS 2010
+
+
 
 *Lab*: **Collaborative filtering and topic modelling using Spark MLlib**
 * Movielens movie recommendation problem using Alternating Least Squares
