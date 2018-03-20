@@ -297,5 +297,5 @@ In our last lecture, we introduce basic concepts of distributed computing using 
 
 *Lab*: **Distributed TensorFlow**
 * Google Cloud Platform: [Running Distributed TensorFlow on Compute Engine](https://cloud.google.com/solutions/running-distributed-tensorflow-on-compute-engine)
-* https://github.com/GoogleCloudPlatform/cloudml-dist-mnist-example
+* [cloud-ml-mnist-example]https://github.com/GoogleCloudPlatform/cloudml-dist-mnist-example
 * [Using Distributed TensorFlow with Cloud ML Engine and Cloud Datalab](https://cloud.google.com/ml-engine/docs/distributed-tensorflow-mnist-cloud-datalab)
