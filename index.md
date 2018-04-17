@@ -44,7 +44,7 @@ On the theory side, we introduce the main principles of distributed systems for 
 
 On the practical side, we cover a variety of tools that are part of a modern data scientist's toolkit, including distributed computing using Apache Hadoop and MapReduce style processing of big data sets, Apache Spark, application programming interfaces for querying structured and unstructured datasets such as Apache Hive, Spark SQL, and Google BigQuery, stream data processing, and deploying large-scale machine learning models. Students learn how to write programmes to define Spark jobs using the Python API and how to deploy a Spark job in a production environment. Students learn how to connect Spark data structures with a variety of external data sources, including key-value data stores, relational databases, and publish-subscribe messaging systems.
 
-For the final project, students are asked to conduct a big data analytics tasks using the principles and technologies learned in class as well as to learn other related technologies not covered in course in a great length (e.g. working with Apache Cassandra or Microsoft Congitive Toolkit). The project report is typically in the form a Jupyter notebook and a working solution.
+For the final project, students are asked to conduct a big data analytics task using the principles and technologies learned in class as well as to learn other related technologies not covered in course in a great length (e.g. working with Apache Cassandra or Microsoft Congitive Toolkit). The project report is typically in the form a Jupyter notebook and a working solution.
 
 
 
