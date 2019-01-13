@@ -1,19 +1,19 @@
 ![LSE](lse-logo.jpg) 
 # ST446 Distributed Computing for Big Data 
 
-### Lent Term 2018
+### Lent Term 2019
 
 ### Instructors
 
 * [Milan Vojnovic](http://personal.lse.ac.uk/vojnovic/), [email](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL 5.05
 
 ### Teaching Assistant
-* [Christine Yuen](http://personal.lse.ac.uk/yuenl/), [email](mailto:L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Monday 13:00 - 14:00, COL 5.03 (from week 2)
+* [Simon Schoeller](https://www.imperial.ac.uk/people/simon.schoeller14), [email](mailto:simon.schoeller14@imperial.ac.uk), Department of Statistics.  *Office hours*: TBD (from week 2)
 
 ### Course Information
 
-* Lectures on Mondays 10:00–12:00 in TW2.2.04
-* Classes on Thursdays 12:30–14:00 in TW2.4.01
+* Lectures on Wednesday 16:00–18:00 in NAB 2.13
+* Classes on Friday 12:30–14:00 in 32L.LG.18
 
 No lectures or classes will take place during School Reading Week 6.
 
@@ -23,14 +23,13 @@ No lectures or classes will take place during School Reading Week 6.
 | 2        | [Distributed file systems and key-value stores](#week-2-distributed-file-systems-and-key-value-stores)                  |
 | 3        | [Distributed computation models](#week-3-distributed-computation-models)    |
 | 4        | [Structured queries over large datasets](#week-4-structured-data-management-systems)       |
-| 5        | [Graph data processing](#week-5-graph-data-processing) <br> Guest lecturer: [Mark Needham](https://neo4j.com/blog/contributor/mark-needham/), Software Engineer, Neo4j                  |
+| 5        | [Graph data processing](#week-5-graph-data-processing) |
 | 6        | _Reading Week_                       |
-| 7        | [Stream data processing](#week-7-stream-data-processing) <br> Guest lecturer: [Eno Thereska](https://enothereska.wordpress.com/), Principal Engineer, Amazon |
-| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i) <br> Guest lecturer: [Ulrich Paquet](http://ulrichpaquet.com/), Research Scientist, Google DeepMind | 
-| 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) <br> Guest lecturer: [Ryota Tomioka](https://www.microsoft.com/en-us/research/people/ryoto/), Researcher, Microsoft Research |
-| 10       | [Cloud computing services](#week-10-cloud-computing-services) <br> Guest lecturer: [Marc Cohen](https://about.me/marc1), Software Engineer, Google |
+| 7        | [Stream data processing](#week-7-stream-data-processing) |
+| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i)| 
+| 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) |
+| 10       | [Cloud computing services](#week-10-cloud-computing-services) |
 | 11       | [Distributed dataflow graph computations](#week-11-distributed-dataflow-graph-computations)           |
-
 
 
 
