@@ -8,7 +8,7 @@
 * [Milan Vojnovic](http://personal.lse.ac.uk/vojnovic/), [email](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL 5.05
 
 ### Teaching Assistant
-* [Simon Schoeller](https://www.imperial.ac.uk/people/simon.schoeller14), [email](mailto:simon.schoeller14@imperial.ac.uk), Department of Statistics.  *Office hours*: TBD (from week 2)
+* [Simon Schoeller](https://www.imperial.ac.uk/people/simon.schoeller14), [email](mailto:sfs14@ic.ac.uk), Department of Statistics.  *Office hours*: Fridays, 2.00 - 3.00 pm, COL 5.03 
 
 ### Course Information
 
