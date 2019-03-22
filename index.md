@@ -26,9 +26,9 @@ No lectures or classes will take place during School Reading Week 6.
 | 5        | [Graph data processing](#week-5-graph-data-processing) |
 | 6        | _Reading Week_                       |
 | 7        | [Stream data processing](#week-7-stream-data-processing) |
-| 8        | [Scalable machine learning I](#week-8-scalable-machine-learning-i)| 
-| 9        | [Scalable machine learning II](#week-9-scalable-machine-learning-ii) |
-| 10       | [Cloud computing services](#week-10-cloud-computing-services) |
+| 8        | [Distributed optimization methods for machine learning](#week-8-distributed-optimization-methods-for-machine-learning)| 
+| 9        | [Machine learning optimization for matrix factorization and topic modeling](#week-9-machine-learning-optimization-for-matrix-factorization-and-topic-modeling) |
+| 10       | [Scaling up distributed machine learning](#week-10-scaling-up-distributed-machine-learning) |
 | 11       | [Distributed dataflow graph computations](#week-11-distributed-dataflow-graph-computations)           |
 
 
