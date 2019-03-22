@@ -222,7 +222,7 @@ In this week we consider basic concepts of data stream processing systems. We ex
 * Visualize topic trends
 
 ---
-#### Week 8. Scalable machine learning I
+#### Week 8. Distributed optimization methods for machine learning
 
 In this week we introduce the basic concepts of scalable distributed machine learning algorithms for regression and classification tasks. We discuss batch optimization methods for model parameter estimation using iterative methods such as gradient descent, batch gradient descent, stochastic gradient descent, and quasi-Newton methods such as [BFGS](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm) and [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS). 
 
@@ -243,12 +243,11 @@ In this week we introduce the basic concepts of scalable distributed machine lea
 Note: assignment for grading to be given in this week
 
 ---
-#### Week 9. Scalable machine learning II
+#### Week 9. Machine learning optimization for matrix factorization and topic modeling
 
-In this week we continue by considering distributed machine learning algorithms for learning deep neural networks, and consider distributed algorithms for other machine learning problems such as collaborative filtering for recommendation systems and topic model for text data analysis. 
+In this week we continue considering the topic of distributed machine learning algorithms with a focus on matrix factorization methods used for collaborative filtering (recommender systems) and topic modeling in text data. 
 
-for clustering and collaborative filtering tasks. We discuss a MapReduce algorithm for k-means clustering problem, as well as an iterative algorithm for collaborative filtering tasks. We consider Spark API approaches provided by MLib and ML packages. In the latter context, we introduce the concept of a pipeline that consists of a dataflow passing through transformer and estimator operators. 
-
+We will discuss matrix completion problem and the algorithm known as alternating least squares and its distributed implementation. We will then continue with discussing distributed algorithms for singular value decomposition and its application for latent semantic analysis of text data. Finally, we will discuss a Bayesian model, known as Latent Dirichlet Allocation, for topic modeling for text data sources. 
 
 *Readings*:
 * Drabas, T. and Lee, D.  _Learning PySpark_, Chapter 5: Intoducing MLib and Chapter 6: Introducting the ML Package, Packt, 2017
@@ -269,17 +268,18 @@ for clustering and collaborative filtering tasks. We discuss a MapReduce algorit
 * Topic modelling using Latent Dirichlet Allocation
 
 ---
-#### Week 10. Cloud computing services
+#### Week 10. Scaling up distributed machine learning
 
-The lecture will provide an overview of cloud services provided by Google including Compute Engine, Cloud ML Engine, Vision API, Translation API, Video intelligence API, and managed TensorFlow at scale. 
+In this lecture, we will introduce basic modeling used for training large-scale machine learning models, with the main application for training large-scale deep neural networks used for image recognition, speech processing and other tasks. We will cover basic distributed computing models, including data parallel and model parallel computation models. We will discuss scalability properties of different approaches, and explain their efficiency with respect to computation and communication complexity. 
 
 *Lab*: **Introduction to deep learning using TensorFlow**
-* TenorFlow and Deep Learning, without a PhD [Google codelab](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)
+* TensorFlow and Deep Learning, without a PhD [Google codelab](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)
+* [Using Cloud ML Engine and Cloud Datalab](https://cloud.google.com/ml-engine/docs/tensorflow/distributed-tensorflow-mnist-cloud-datalab)
 
 ---
 #### Week 11. Distributed dataflow graph computations
 
-In our last lecture, we introduce basic concepts of distributed computing using dataflow graphs. In such settings, the user defines a dataflow graph where nodes of the graph represent operations (e.g. a matrix multiplication, a non-linear function) and edges represent flow of data between operations. We will primarily focus on one system that uses dataflow graph computations, namely, TensorFlow, used for learning and inference for deep neural networks. We will explain the key system architectural concepts that underlie the design of TensorFlow as well as the application programming interface. 
+In our last lecture, we continue discussing the topic of scaling up distributed machine learning algorithms but from a systems perspective, focusing on data structures, application programming interface and how to the theoretical principles are put in practice. We will discuss the concept of a dataflow graph where nodes of the graph represent operations (e.g. a matrix multiplication, a non-linear activation function) and edges represent flow of data between operations. We will primarily focus on one system that is based on the concept of dataflow graph computations, namely, TensorFlow, used for learning and inference for deep neural networks. We will explain the key system architectural concepts that underlie the design of TensorFlow as well as the application programming interface. 
 
 *Readings*:
 * Abadi, M. et al, [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi), OSDI 2016
@@ -295,4 +295,3 @@ In our last lecture, we introduce basic concepts of distributed computing using 
 *Lab*: **Distributed TensorFlow**
 * Google Cloud Platform: [Running Distributed TensorFlow on Compute Engine](https://cloud.google.com/solutions/running-distributed-tensorflow-on-compute-engine)
 * [cloud-ml-mnist-example](https://github.com/GoogleCloudPlatform/cloudml-dist-mnist-example)
-* [Using Distributed TensorFlow with Cloud ML Engine and Cloud Datalab](https://cloud.google.com/ml-engine/docs/distributed-tensorflow-mnist-cloud-datalab)
