@@ -8,7 +8,7 @@
 * [Milan Vojnovic](http://personal.lse.ac.uk/vojnovic/), [email](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL 5.05
 
 ### Teaching Assistant
-* Jialin Yi, [email](mailto:J.Yi8@lse.ac.uk), Department of Statistics.  *Office hours*: Fridays, 2.00 - 3.00 pm, COL 5.03 
+* Jialin Yi, [email](mailto:J.Yi8@lse.ac.uk), Department of Statistics.  *Office hours*: Fridays, 14:00-15.00, COL 5.03 
 
 ### Course Information
 
