@@ -8,11 +8,11 @@
 * [Milan Vojnovic](http://personal.lse.ac.uk/vojnovic/), [email](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL 5.05
 
 ### Teaching Assistant
-* [Simon Schoeller](https://www.imperial.ac.uk/people/simon.schoeller14), [email](mailto:sfs14@ic.ac.uk), Department of Statistics.  *Office hours*: Fridays, 2.00 - 3.00 pm, COL 5.03 
+* Jialin Yi, [email](mailto:J.Yi8@lse.ac.uk), Department of Statistics.  *Office hours*: Fridays, 2.00 - 3.00 pm, COL 5.03 
 
 ### Course Information
 
-* Lectures on Wednesday 16:00–18:00 in NAB 2.13
+* Lectures on Wednesday 16:00–18:00 in NAB 1.15
 * Classes on Friday 12:30–14:00 in 32L.LG.18
 
 No lectures or classes will take place during School Reading Week 6.
