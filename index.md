@@ -1,7 +1,7 @@
 ![LSE](lse-logo.jpg) 
 # ST446 Distributed Computing for Big Data 
 
-### Lent Term 2019
+### Lent Term 2020
 
 ### Instructors
 
