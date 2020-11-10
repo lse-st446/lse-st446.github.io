@@ -1,14 +1,17 @@
 ![LSE](lse-logo.jpg) 
 # ST446 Distributed Computing for Big Data 
 
-### Lent Term 2020
+### Lent Term 2021
 
 ### Instructors
 
 * [Milan Vojnovic](http://personal.lse.ac.uk/vojnovic/), [email](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL 5.05
 
-### Teaching Assistant
-* Jialin Yi, [email](mailto:J.Yi8@lse.ac.uk), Department of Statistics.  *Office hours*: Fridays, 14:00-15.00, COL 5.03 
+### Teaching Assistants
+* Marcos Barreto
+* Jenjira Jaimunk
+* Kaifang Zhou
+
 
 ### Course Information
 
@@ -35,16 +38,15 @@ No lectures or classes will take place during School Reading Week 6.
 
 ### Course Description
 
-This course covers the main principles and application programming interfaces of distributed systems for storing and processing big data. The topics covered include distributed file systems, storage systems, and data models that are in common use in modern on-premise data analytics platforms and cloud computing services. The course covers the principles of computing over large datasets in distributed computing systems involving multi-core processors and cluster computing systems. Students will learn how to perform canonical distributed computing tasks in batch, interactive and stream processing settings and how to run scalable machine learning algorithms for regression, classification, clustering and collaborative filtering tasks. 
+This course covers main principles of architecture and application programming interfaces of distributed systems for storing and processing big data. The topics covered include distributed file systems, storage systems, and data models that are in common use in modern on-premise data analytics platforms and cloud computing services. The course covers principles of computing over large datasets in distributed computing systems involving multi-core processors and cluster computing systems. Students will learn how to perform canonical distributed computing tasks in batch, interactive and stream processing settings and how to run scalable machine learning algorithms for regression, classification, clustering and collaborative filtering tasks. 
 
-This course uses a project-based learning approach where students gain hands-on experience in using computing tools, services and writing software code through computer workshop exercises and project assignments. This equips students with key skills and knowledge about modern computing platforms for processing big data. In particular, students gain hands-on experience in working with Apache Hadoop, an open-source software framework for distributed storage and processing of large datasets
-using the MapReduce programming model and other services such as Apache Hive. They also gain hands-on experience in working with  Apache Spark, the fastest-growing general engine for processing big data, used across different industries, and connecting Spark with various data sources and other systems. The students learn how to run big data analytics tasks locally on their laptops as well as on distributed clusters of machines in the cloud. The students work on weekly exercises and project assignments by using GitHub, a popular revision-control and group collaboration tool. Each student develops code for solving one or more computation tasks and uses GitHub for accessing and submitting course materials and assignments.
+This course uses a project-based learning approach where students gain hands-on experience in using computing tools, services and writing software code through computer workshop exercises and project assignments. This equips students with key skills and knowledge about modern computing platforms for processing big data. In particular, students gain hands-on experience in working with Apache Hadoop, an open-source software framework for distributed storage and processing of large datasets using the MapReduce programming model and other services such as Apache Hive. They also gain hands-on experience in working with  Apache Spark, a general engine for processing big data used across different industries, and connecting Spark with various data sources and other systems. The students learn how to run big data analytics tasks locally on their laptops as well as on distributed clusters of machines in the cloud. The students work on weekly exercises and project assignments by using GitHub, a popular revision-control and group collaboration tool. Each student develops code for solving one or more computation tasks and uses GitHub for accessing and submitting course materials and assignments.
 
-On the theory side, we introduce the main principles of distributed systems for big data analytics, their design objectives, querying paradigms by using MapReduce and other computation models, general numerical computations using dataflow graphs, and querying data by using SQL-like application programming interfaces. We consider graph processing algorithms for querying graph properties and iterative computations on input graph data. We introduce the principles of stream data processing, how to perform computations and execute queries over a sliding-window of input data stream elements. We study the principles of scalable machine learning algorithms, based on parallel implementation of gradient-descent based algorithms for minimizing a loss function, used for training regression and classification models. We also consider distributed MapReduce computations for training clustering models such as k-means and collaborative filtering models based on matrix factorization. We consider numerical computations using dataflow graphs, with a focus on learning deep neural networks for image classification and other classification tasks. Students are encouraged to work on computing tasks and datasets that are of their own interest.
+On the theory side, we introduce the main principles of distributed systems for big data analytics, their design objectives, querying paradigms by using MapReduce and other computation models, general numerical computations using dataflow graphs, and querying data by using SQL-like application programming interfaces. We consider graph processing algorithms for querying graph properties and iterative computations on input graph data. We introduce the main principles of stream data processing, how to perform computations and execute queries over a sliding-window of input data stream elements. We study the principles of scalable machine learning algorithms, based on parallel implementation of gradient-descent based algorithms for minimizing a loss function, used for training classification and regression prediction models. We also consider distributed MapReduce computations for training clustering models such as k-means and collaborative filtering models based on matrix factorization. We consider numerical computations using dataflow graphs, with a focus on learning deep neural networks for image classification and other classification tasks. Students are encouraged to work on computing tasks and datasets that are of their own interest.
 
-On the practical side, we cover a variety of tools that are part of a modern data scientist's toolkit, including distributed computing using Apache Hadoop and MapReduce style processing of big datasets, Apache Spark, application programming interfaces for querying structured and unstructured datasets such as Apache Hive, Spark SQL, and Google BigQuery, stream data processing, and deploying large-scale machine learning models. Students learn how to write programmes to define Spark jobs using the Python API and how to deploy a Spark job in a production environment. Students learn how to connect Spark data structures with a variety of external data sources, including key-value data stores, relational databases, and publish-subscribe messaging systems.
+On the practical side, we cover a variety of tools that are part of a modern data scientist's toolkit, including distributed computing using Apache Hadoop and MapReduce style processing of big datasets, Apache Spark, application programming interfaces for querying structured and unstructured datasets such as Apache Hive, Spark SQL, and Google BigQuery, stream data processing, and deploying large-scale machine learning models. Students learn how to write programs to define Spark jobs using the Python API and how to deploy a Spark job in a production environment. Students learn how to connect Spark data structures with a variety of external data sources, including key-value data stores, relational databases, and publish-subscribe messaging systems.
 
-For the course project, students are asked to conduct a big data analytics task using the principles and technologies learned in class and possibly using principles and technologies not covered in the course in a great length (e.g. working with Apache Cassandra or Microsoft Congitive Toolkit). The project report is typically in the form a Jupyter notebook containing a working solution.
+For the course project, students are asked to conduct a big data analytics task using the principles and technologies learned in class and possibly using principles and technologies not covered in the course in a great length. The project report is typically in the form a Jupyter notebook containing a working solution.
 
 
 
@@ -57,12 +59,12 @@ The course involves 20 hours of lectures and 15 hours of computer workshops in t
 
 ### Prerequisites
 
-Some basic prior programming experience is expected. Prior experience with Python programming is desirable; for example, acquired through the compulsory courses of the MSc in Data Science program.
+Basic programming knowledge is expected. Prior experience with Python programming is desirable; for example, acquired through a course of the MSc in Data Science programme.
 
 
 ### Software
 
-We use a wide range of tools, including Juypter notebooks, Apache Hadoop, Google Bigtable, Apache Hive, Apache Spark / PySpark (Python API for Spark), SQL APIs for querying datasets, Tensorflow library for dataflow programs, Docker, and various cloud computing services, e.g. provided by the Google Cloud Platform. Lectures and assignments are posted on Github. Students are expected to use GitHub also to submit problem sets and final exam.
+We use a wide range of tools, including Juypter notebooks, Apache Hadoop, Google Bigtable, Apache Hive, Apache Spark / PySpark (Python API for Spark), SQL APIs for querying datasets, Tensorflow library for dataflow programs, Docker, and various cloud computing services, e.g. provided by the Google Cloud Platform. Lectures and assignments are posted on Github. Students are required to use GitHub to submit problem set solutions and final project report.
 
 Where appropriate, we use Jupyter notebooks for lab assignments, demonstrations, and the course notes themselves.
 
@@ -76,7 +78,7 @@ Project assignment (80%) and continuous assessment in weeks 4 and 7 (10% each). 
 ---
 #### Week 1. Introduction
 
-In the first week, we provide an overview of basic concepts starting with a definition of big data, followed by an overview of structured, semi-structured and unstructured data types, including relational database tables, delimiter-separated file formats such as csv and tsv files, JSON and XML file formats. We then consider main properties of traditional relational database management systems, their support of transactions and ACID properties. This leads us to consider the need for the design of scalable systems, the concepts of horizontal and vertical scaling, and various computer system bottlenecks. We then go on to consider modern big data analytics systems and how they have evolved over time. We introduce various computation paradigms such as batch processing, interactive processing, stream processing, and lambda architecture. We discuss main developments such as MapReduce computation model and noSQL databases. The rest of the lecture discusses various computation tasks that led to the development of modern big data analytics systems, which are studied throughout the course. 
+In the first week, we provide an overview of basic concepts starting with definition of big data, followed by an overview of structured, semi-structured and unstructured data types, including relational database tables, delimiter-separated file formats such as csv and tsv files, JSON and XML file formats. We then consider some main properties of traditional relational database management systems, their support of transactions and ACID properties. This leads us to consider the need for the design of scalable systems, the concepts of horizontal and vertical scaling, and various computer system bottlenecks. We then go on to consider modern big data analytics systems and how they have evolved over time. We introduce various computation paradigms such as batch processing, interactive processing, stream processing, and lambda architecture. We discuss main developments such as MapReduce computation model and noSQL databases. The rest of the lecture discusses various computation tasks that led to the development of modern big data analytics systems, which are studied throughout the course. 
 
 
 *Readings*:
